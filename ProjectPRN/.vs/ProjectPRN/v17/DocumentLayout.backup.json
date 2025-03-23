@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminstaticpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminstaticpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminstaticpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -19,20 +15,24 @@
       "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminstaticpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminstaticpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|d:\\github1\\milktea_projectprn212\\projectprn\\projectprn\\adminproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -210,19 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminProductPage.xaml",
-              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminProductPage.xaml",
-              "RelativeDocumentMoniker": "ProjectPRN\\AdminProductPage.xaml",
-              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminProductPage.xaml",
-              "RelativeToolTip": "ProjectPRN\\AdminProductPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-23T15:36:26.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AdminStaticPage.xaml",
               "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminStaticPage.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminStaticPage.xaml",
@@ -234,7 +222,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminMainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminMainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\AdminMainWindow.xaml.cs",
+              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminMainWindow.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\AdminMainWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwFgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:35:23.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminProductPage.xaml",
+              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminProductPage.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\AdminProductPage.xaml",
+              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminProductPage.xaml",
+              "RelativeToolTip": "ProjectPRN\\AdminProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T15:36:26.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminStaticPage.xaml.cs",
+              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminStaticPage.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\AdminStaticPage.xaml.cs",
+              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminStaticPage.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\AdminStaticPage.xaml.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAowKwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:39:14.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AdminMainWindow.xaml",
               "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminMainWindow.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminMainWindow.xaml",
@@ -246,32 +272,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminMainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminMainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\AdminMainWindow.xaml.cs",
-              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminMainWindow.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\AdminMainWindow.xaml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAADwv1IAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:35:23.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminHome.xaml",
-              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminHome.xaml",
-              "RelativeDocumentMoniker": "ProjectPRN\\AdminHome.xaml",
-              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminHome.xaml",
-              "RelativeToolTip": "ProjectPRN\\AdminHome.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-23T15:33:26.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "AdminEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\AdminEmployee.xaml.cs",
+              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminEmployee.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\AdminEmployee.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:21:03.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AdminEmployee.xaml",
               "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminEmployee.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminEmployee.xaml",
@@ -283,28 +297,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminEmployee.xaml.cs",
-              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminEmployee.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\AdminEmployee.xaml.cs",
-              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminEmployee.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\AdminEmployee.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:21:03.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AdminStaticPage.xaml.cs",
-              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminStaticPage.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\AdminStaticPage.xaml.cs",
-              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminStaticPage.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\AdminStaticPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:39:14.167Z",
+              "Title": "AdminHome.xaml",
+              "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminHome.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\AdminHome.xaml",
+              "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminHome.xaml",
+              "RelativeToolTip": "ProjectPRN\\AdminHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T15:33:26.977Z",
               "EditorCaption": ""
             },
             {
@@ -317,8 +317,7 @@
               "RelativeToolTip": "ProjectPRN\\AdminProductPage.xaml.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwBgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:37:07.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:37:07.425Z"
             },
             {
               "$type": "Document",
@@ -330,8 +329,7 @@
               "RelativeToolTip": "ProjectPRN\\AdminHome.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAUwBQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:33:57.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:33:57.012Z"
             },
             {
               "$type": "Document",
@@ -343,8 +341,7 @@
               "RelativeToolTip": "ProjectPRN\\Models\\MilkTeaContext.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAQwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T14:45:51.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T14:45:51.5Z"
             },
             {
               "$type": "Document",
@@ -356,8 +353,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\CustomerBusiness.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAYwCUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:31:49.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:31:49.145Z"
             },
             {
               "$type": "Document",
@@ -369,8 +365,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\AdminBusiness.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAYwCMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:31:05.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:31:05.325Z"
             },
             {
               "$type": "Document",
@@ -382,8 +377,7 @@
               "RelativeToolTip": "ProjectPRN\\LoginWindow.xaml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:15:04.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T21:15:04.534Z"
             },
             {
               "$type": "Document",
@@ -394,21 +388,19 @@
               "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml",
               "RelativeToolTip": "ProjectPRN\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T20:06:03.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T20:06:03.437Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ProjectPRN",
+              "Title": "ProjectPRN.csproj",
               "DocumentMoniker": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
               "RelativeDocumentMoniker": "ProjectPRN\\ProjectPRN.csproj",
               "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
               "RelativeToolTip": "ProjectPRN\\ProjectPRN.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-23T15:29:34.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:29:34.26Z"
             },
             {
               "$type": "Document",
@@ -432,8 +424,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\StaffBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:32:21.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:32:21.745Z"
             },
             {
               "$type": "Document",
@@ -445,8 +436,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\RoleBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:32:13.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:32:13.143Z"
             },
             {
               "$type": "Document",
@@ -458,8 +448,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\ProductBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:32:07.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:32:07.796Z"
             },
             {
               "$type": "Document",
@@ -471,8 +460,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\OrdersDetailBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:32:03.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:32:03.274Z"
             },
             {
               "$type": "Document",
@@ -484,8 +472,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\OrdersBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:31:58.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:31:58.579Z"
             },
             {
               "$type": "Document",
@@ -497,8 +484,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\CategoryBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:31:41.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:31:41.511Z"
             },
             {
               "$type": "Document",
@@ -510,8 +496,7 @@
               "RelativeToolTip": "ProjectPRN\\Business\\AccountBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:30:42.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T15:30:42.286Z"
             },
             {
               "$type": "Document",
@@ -523,8 +508,7 @@
               "RelativeToolTip": "ProjectPRN\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T14:43:36.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T14:43:36.458Z"
             },
             {
               "$type": "Document",
@@ -536,8 +520,7 @@
               "RelativeToolTip": "ProjectPRN\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:36:18.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T14:36:18.786Z"
             },
             {
               "$type": "Document",
@@ -571,8 +554,7 @@
               "RelativeToolTip": "ProjectPRN\\StaffWindow.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T18:27:04.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T18:27:04.242Z"
             },
             {
               "$type": "Document",
@@ -595,8 +577,7 @@
               "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\MainWindow.xaml",
               "RelativeToolTip": "ProjectPRN\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T14:31:56.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T14:31:56.445Z"
             },
             {
               "$type": "Document",
@@ -631,8 +612,7 @@
               "ToolTip": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
               "RelativeToolTip": "ProjectPRN\\ProjectPRN.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-08T20:19:51.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T20:19:51.455Z"
             },
             {
               "$type": "Document",
