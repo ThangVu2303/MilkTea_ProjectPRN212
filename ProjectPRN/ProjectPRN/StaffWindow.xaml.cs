@@ -195,6 +195,71 @@ namespace ProjectPRN
             txtTotalPrice.Text = (totalPrice - discount).ToString("N0") + " VND";
         }
 
+        private void lvCustomers_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var cus = lvCustomers.SelectedItem as Customer;
+            if(cus != null)
+            {
+                txtCustomerId.Text = cus.CustomerId.ToString();
+                txtFullName.Text = cus.Account.FullName;
+                txtPhone.Text = cus.Account.Phone.ToString();
+                txtPoints.Text = cus.Point.GetValueOrDefault().ToString();
+            }
+        }
+
+        private void ButtonSearchCustomer_Click(object sender, RoutedEventArgs e)
+        {
+            string phone = txtSearchPhone.Text.Trim();
+            // Tìm khách hàng theo số điện thoại
+            var customer = MilkTeaContext.Ins.Customers.Include(c => c.Account).FirstOrDefault(c => c.Account.Phone == phone);
+            if(customer != null)
+            {
+                lvCustomers.SelectedItem = customer;
+            }
+        }
+
         
+        private void ButtonUpdateCustomer_Click(object sender, RoutedEventArgs e)
+        {
+            if (int.TryParse(txtCustomerId.Text, out int customerId))
+            {
+                Customer customer = MilkTeaContext.Ins.Customers.Include(c => c.Account).FirstOrDefault(c => c.CustomerId == customerId);
+
+                if (customer != null)
+                {
+                    customer.Account.FullName = txtFullName.Text;
+                    customer.Account.Phone = txtPhone.Text;
+                    customer.Point = int.TryParse(txtPoints.Text, out int points) ? points : customer.Point;
+                    MilkTeaContext.Ins.Customers.Update(customer);
+                    MilkTeaContext.Ins.SaveChanges();
+                    MessageBox.Show("Customer updated successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    lvCustomers.Items.Refresh(); // Cập nhật danh sách khách hàng
+                }
+                else
+                {
+                    MessageBox.Show("Customer not found!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Invalid Customer ID!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void ButtonCancelCustomer_Click(object sender, RoutedEventArgs e)
+        {
+            txtCustomerId.Text = string.Empty;
+            txtFullName.Text = string.Empty;
+            txtPhone.Text = string.Empty;
+            txtPoints.Text = string.Empty;
+        }
+
+        private void ButtonCreateCustomer_Click(object sender, RoutedEventArgs e)
+        {
+            CreateCustomerWindow create = new CreateCustomerWindow(acc);
+            create.Show();
+            this.Close();
+
+        }
     }
 }

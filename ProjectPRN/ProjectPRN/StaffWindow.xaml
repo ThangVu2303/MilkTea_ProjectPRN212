@@ -31,9 +31,9 @@
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2.5*"/>
                 <ColumnDefinition Width="1.5*"/>
-                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="1.2*"/>
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" Margin="20" >
@@ -68,7 +68,7 @@
             <TextBlock Grid.Row="0" Grid.Column="1" Text="Order Item: " FontSize="20" FontWeight="Bold" Margin="20"/>
             <StackPanel Grid.Row="1" Grid.Column="1" Background="White" Margin="20" >
 
-                <ListView x:Name="lvCart" Height="350">
+                <ListView x:Name="lvCart" Height="400">
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="Product Name" DisplayMemberBinding="{Binding Product.ProductName}" Width="150"/>
@@ -126,8 +126,8 @@
                     <StackPanel Orientation="Horizontal" Margin="20">
                         <Label Content="Phone Number:" FontSize="16" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
                         <TextBox Name="txtSearchPhone" Width="150" Height="25"/>
-                        <Button Content="Search" Padding="5" Margin="10,0,0,0" />
-                        <Button Content="Register New Customer" Padding="5" Margin="10,0,0,0" />
+                        <Button Content="Search" Padding="5" Margin="10,0,0,0" Click="ButtonSearchCustomer_Click" />
+                        <Button Content="Register New Customer" Padding="5" Margin="10,0,0,0" Click="ButtonCreateCustomer_Click" />
                     </StackPanel>
 
                     <!-- Form thêm/sửa khách hàng -->
@@ -138,7 +138,6 @@
                                 <Label Content="Customer ID:" Width="100"/>
                                 <TextBox x:Name="txtCustomerId" Width="300" Height="25" IsReadOnly="False" />
                             </StackPanel>
-                            
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                                 <Label Content="Full Name:" Width="100"/>
                                 <TextBox x:Name="txtFullName" Width="300" Height="25"/>
@@ -155,30 +154,21 @@
                             </StackPanel>
                             
                             <StackPanel Orientation="Horizontal" Margin="10,0,0,10">
-                                <Button Content="Save" Padding="10" Margin="10,0,0,0" />
-                                <Button Content="Cancel" Padding="10" Margin="10,0,0,0" />
+                                <Button Content="Update" Padding="10" Margin="10,0,0,0" Click="ButtonUpdateCustomer_Click" />
+                                <Button Content="Cancel" Padding="10" Margin="10,0,0,0" Click="ButtonCancelCustomer_Click"/>
                             </StackPanel>
                         </StackPanel>
                     </Border>
 
                     <!-- Danh sách khách hàng -->
-                    <ListView x:Name="lvCustomers" Grid.Row="1" Grid.Column="0" Margin="20">
+                    <ListView x:Name="lvCustomers" Grid.Row="1" Grid.Column="0" Margin="20" SelectionChanged="lvCustomers_SelectionChanged">
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn Header="Customer ID" DisplayMemberBinding="{Binding CustomerId}" Width="100"/>
-                                <GridViewColumn Header="Full Name" DisplayMemberBinding="{Binding Account.FullName}" Width="200"/>
-                                <GridViewColumn Header="Phone" DisplayMemberBinding="{Binding Account.Phone}" Width="150"/>
-                                <GridViewColumn Header="Points" DisplayMemberBinding="{Binding Point}" Width="100"/>
-                                <GridViewColumn Header="Actions" Width="150">
-                                    <GridViewColumn.CellTemplate>
-                                        <DataTemplate>
-                                            <StackPanel Orientation="Horizontal">
-                                                <Button Content="Edit" Padding="5" Margin="0,0,5,0" />
-                                                <Button Content="Delete" Padding="5" />
-                                            </StackPanel>
-                                        </DataTemplate>
-                                    </GridViewColumn.CellTemplate>
-                                </GridViewColumn>
+                                <GridViewColumn Header="Customer ID" DisplayMemberBinding="{Binding CustomerId}" />
+                                 <GridViewColumn Header="Full Name" DisplayMemberBinding="{Binding Account.FullName}" />
+                                <GridViewColumn Header="Phone" DisplayMemberBinding="{Binding Account.Phone}" />
+                                <GridViewColumn Header="Points" DisplayMemberBinding="{Binding Point}" />
+                                
                             </GridView>
                         </ListView.View>
                     </ListView>
