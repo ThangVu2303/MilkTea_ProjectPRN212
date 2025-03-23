@@ -1,0 +1,69 @@
+﻿<Window x:Class="ProjectPRN.OrderViewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="OrderViewWindow" WindowState="Maximized" WindowStyle="None" d:DesignHeight="707.62" d:DesignWidth="1380.367">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        
+
+        <DockPanel Grid.Row="0"  Background="#007ACC" Height="70" VerticalAlignment="Top" >
+            <Image DockPanel.Dock="Left" Source="/LogoImage/logo.png" Width="46" Height="45" Margin="10" HorizontalAlignment="Left"/>
+            <Label DockPanel.Dock="Left" Content="Milk Tea" Foreground="White" FontSize="28" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" />
+
+
+            <Image DockPanel.Dock="Right" Source="/LogoImage/close.png" Width="30" Height="30" Margin="10" Cursor="Hand" HorizontalAlignment="Right" VerticalAlignment="Center" MouseLeftButtonDown="Image_MouseLeftButtonDown" />
+            <Label DockPanel.Dock="Right" x:Name="txtUsername"  Foreground="White" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10" />
+            <Label DockPanel.Dock="Right" x:Name="txtTime" Content="HH:MM:SS DD-MM-YYYY" Foreground="White" FontSize="16" FontWeight="Bold"  VerticalAlignment="Center"  />
+            <Menu DockPanel.Dock="Right" FontSize="16" FontWeight="Bold" Background="Transparent" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <MenuItem Header="Back to Order" Click="MenuItem_Click" />
+             </Menu>
+        </DockPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <ListView x:Name="lvOrders"  Grid.Column="0" SelectionChanged="lvOrders_SelectionChanged" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Order ID" DisplayMemberBinding="{Binding OrderId}" />
+                        <GridViewColumn Header="Staff Name" DisplayMemberBinding="{Binding Staff.Account.FullName}" />
+                        <GridViewColumn Header="Customer Name" DisplayMemberBinding="{Binding Customer.Account.FullName}" />
+                        <GridViewColumn Header="Total" DisplayMemberBinding="{Binding Total}" />
+                        <GridViewColumn Header="Point" DisplayMemberBinding="{Binding Point}" />
+                        <GridViewColumn Header="Date" DisplayMemberBinding="{Binding DateCreate, StringFormat=dd/MM/yyyy}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <!-- Chi tiết OrderDetail -->
+            <ListView x:Name="lvOrderDetails" Grid.Column="1" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Order ID" DisplayMemberBinding="{Binding OrderId}" />
+                        <GridViewColumn Header="Product Name" DisplayMemberBinding="{Binding Product.ProductName}" />
+                        <GridViewColumn Header="Image" Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image  Width="80" Height="80" Source="{Binding Product.Image}"   />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Quantity" DisplayMemberBinding="{Binding Quantity}" />
+                        <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+
+        
+    </Grid>
+</Window>

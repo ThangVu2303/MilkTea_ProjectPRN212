@@ -13,19 +13,16 @@
     <Compile Update="AdminHome.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="AdminMainWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="AdminProductPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="AdminStaticPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="CustomerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderViewWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="StaffWindow.xaml.cs">
@@ -40,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OrderViewWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="StaffWindow.xaml">
