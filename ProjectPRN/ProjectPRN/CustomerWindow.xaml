@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="CustomerWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="heheheheh"></Label>
+        <Label Content="nhehehe"/>
     </Grid>
 </Window>
