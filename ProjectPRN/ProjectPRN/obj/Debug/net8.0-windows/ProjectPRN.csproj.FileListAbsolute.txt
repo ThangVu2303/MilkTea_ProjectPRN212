@@ -286,3 +286,4 @@ C:\Users\Gigabyte\OneDrive\Máy tính\MilkTea_ProjectPRN212\ProjectPRN\ProjectPR
 C:\Users\Gigabyte\OneDrive\Máy tính\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ref\ProjectPRN.dll
 C:\Users\Gigabyte\OneDrive\Máy tính\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\OrderViewWindow.g.cs
 C:\Users\Gigabyte\OneDrive\Máy tính\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\OrderViewWindow.baml
+C:\Users\Gigabyte\OneDrive\Máy tính\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\AdminMainWindow.g.cs

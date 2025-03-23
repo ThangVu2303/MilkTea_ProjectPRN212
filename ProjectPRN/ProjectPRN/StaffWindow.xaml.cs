@@ -209,7 +209,7 @@ namespace ProjectPRN
 
                 if (customer == null)
                 {
-                    MessageBox.Show("Không tìm thấy khách hàng!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Not found customer!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
             Staff staff = MilkTeaContext.Ins.Staff.Include(c => c.Account).FirstOrDefault(c => c.AccountId == acc.AccountId);
@@ -248,7 +248,7 @@ namespace ProjectPRN
             txtCustomerInfo.Text = string.Empty;
             txtCustomerPoints.Text = string.Empty;
             totalPrice = 0;
-            MessageBox.Show("Đơn hàng đã được tạo thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show("Create order successully!", "Infomation", MessageBoxButton.OK, MessageBoxImage.Information);
             
         }
         private void lvCustomers_SelectionChanged(object sender, SelectionChangedEventArgs e)
