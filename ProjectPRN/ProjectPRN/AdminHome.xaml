@@ -1,0 +1,48 @@
+﻿<Page x:Class="ProjectPRN.AdminHome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="Admin Home" 
+        Loaded="Page_Loaded">
+    <Grid Margin="20" Background="#F5F5F5">
+        <!-- Thêm nền nhẹ -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Tiêu đề -->
+            <RowDefinition Height="*"/>
+            <!-- Thống kê -->
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <Label Grid.Row="0" Content="Dashboard" FontSize="28" FontWeight="Bold" 
+               HorizontalAlignment="Center" Margin="0,0,0,30" Foreground="#333333"/>
+
+        <!-- Stats -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border Background="White" BorderBrush="#CCCCCC" BorderThickness="1" Margin="20" Width="250" Height="150" CornerRadius="8" Padding="10">
+                <StackPanel>
+                    <Label Content="Total Orders" FontSize="18" HorizontalAlignment="Center" Foreground="#555555"/>
+                    <Label x:Name="labelTotalOrders" Content="0" FontSize="36" FontWeight="Bold" 
+                           HorizontalAlignment="Center" Foreground="#0078D4"/>
+                </StackPanel>
+            </Border>
+            <Border Background="White" BorderBrush="#CCCCCC" BorderThickness="1" Margin="20" Width="250" Height="150" CornerRadius="8" Padding="10">
+                <StackPanel>
+                    <Label Content="Total Products" FontSize="18" HorizontalAlignment="Center" Foreground="#555555"/>
+                    <Label x:Name="labelTotalProducts" Content="0" FontSize="36" FontWeight="Bold" 
+                           HorizontalAlignment="Center" Foreground="#0078D4"/>
+                </StackPanel>
+            </Border>
+            <Border Background="White" BorderBrush="#CCCCCC" BorderThickness="1" Margin="20" Width="250" Height="150" CornerRadius="8" Padding="10">
+                <StackPanel>
+                    <Label Content="Total Employees" FontSize="18" HorizontalAlignment="Center" Foreground="#555555"/>
+                    <Label x:Name="labelTotalEmployees" Content="0" FontSize="36" FontWeight="Bold" 
+                           HorizontalAlignment="Center" Foreground="#0078D4"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>
