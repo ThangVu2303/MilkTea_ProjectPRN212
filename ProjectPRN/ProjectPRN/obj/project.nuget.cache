@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iGHbii6rilo=",
+  "dgSpecHash": "rTGpmJ22eAs=",
   "success": true,
-  "projectFilePath": "G:\\PRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+  "projectFilePath": "C:\\Users\\Gigabyte\\OneDrive\\Máy tính\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gigabyte\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Gigabyte\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
