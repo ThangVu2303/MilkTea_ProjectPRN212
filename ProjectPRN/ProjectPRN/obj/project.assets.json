@@ -4308,23 +4308,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Users\\Gigabyte\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+      "projectUniqueName": "C:\\Users\\Gigabyte\\OneDrive\\Máy tính\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
       "projectName": "ProjectPRN",
-      "projectPath": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\obj\\",
+      "projectPath": "C:\\Users\\Gigabyte\\OneDrive\\Máy tính\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+      "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gigabyte\\OneDrive\\Máy tính\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gigabyte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4351,7 +4351,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -4397,7 +4397,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

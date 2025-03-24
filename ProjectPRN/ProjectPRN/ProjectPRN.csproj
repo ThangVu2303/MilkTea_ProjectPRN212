@@ -11,6 +11,18 @@
   <ItemGroup>
     <None Remove="LogoImage\close.png" />
     <None Remove="LogoImage\logo.png" />
+    <None Remove="ProductImage\banhmi.jpg" />
+    <None Remove="ProductImage\caphe.jpg" />
+    <None Remove="ProductImage\download %281%29.jpg" />
+    <None Remove="ProductImage\download.jpg" />
+    <None Remove="ProductImage\ham.jpg" />
+    <None Remove="ProductImage\images.jpg" />
+    <None Remove="ProductImage\olong.jpg" />
+    <None Remove="ProductImage\pizza.jpg" />
+    <None Remove="ProductImage\trathai.jpg" />
+    <None Remove="ProductImage\xoai.jpg" />
+    <None Remove="ProductImage\xucxich.jpg" />
+    <None Remove="ProductImage\ảnh thu.jpg" />
   </ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.13">
@@ -31,14 +43,47 @@
 	  <Resource Include="LogoImage\logo.png">
 	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 	  </Resource>
+	  <Resource Include="ProductImage\banhmi.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\caphe.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\download (1).jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\download.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\ham.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\images.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\olong.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\pizza.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\trathai.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\xoai.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\xucxich.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="ProductImage\ảnh thu.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
 	</ItemGroup>
 	<ItemGroup>
 	  <None Update="appsettings.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Product image\" />
 	</ItemGroup>
 	
 	

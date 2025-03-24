@@ -5,8 +5,108 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectPRN"
         mc:Ignorable="d"
-        Title="CustomerWindow" Height="450" Width="800">
+        Title="CustomerWindow" WindowState="Maximized" WindowStyle="None" d:DesignHeight="707.62" d:DesignWidth="1380.367">
     <Grid>
-        
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <DockPanel Grid.Row="0"  Background="#007ACC" Height="70" VerticalAlignment="Top" >
+                <Image DockPanel.Dock="Left" Source="/LogoImage/logo.png" Width="46" Height="45" Margin="10" HorizontalAlignment="Left"/>
+                <Label DockPanel.Dock="Left" Content="Milk Tea" Foreground="White" FontSize="28" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                <Image DockPanel.Dock="Right" Source="/LogoImage/close.png" Width="30" Height="30" Margin="10" Cursor="Hand" HorizontalAlignment="Right" VerticalAlignment="Center" MouseLeftButtonDown="Image_MouseLeftButtonDown" />
+                <Label DockPanel.Dock="Right" x:Name="txtUsername"  Foreground="White" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10" />
+                <Label DockPanel.Dock="Right" x:Name="txtTime" Content="HH:MM:SS DD-MM-YYYY" Foreground="White" FontSize="16" FontWeight="Bold"  HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                
+            </DockPanel>
+            <TabControl x:Name="tabControlMain" Grid.Row="1" Margin="20">
+
+                <!-- Tab 1: Bán hàng -->
+                <TabItem Header="View Product">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+
+
+                        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" Margin="20,20,20,20" Grid.ColumnSpan="2" >
+                            <TextBlock Text="Filter by Category:" FontSize="16" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                            <ComboBox x:Name="cbCategoryFilter" Width="200" SelectionChanged="cbCategoryFilter_SelectionChanged"/>
+                        </StackPanel>
+
+                        <ListView x:Name="lvProducts" Grid.Row="1" Grid.Column="0" 
+          SelectionMode="Multiple" Background="White" Margin="20,20,20,20" Grid.ColumnSpan="2">
+                            <ListView.View >
+                                <GridView>
+                                    <GridViewColumn Header="Product ID" DisplayMemberBinding="{Binding ProductId}"  Width="100"/>
+                                    <GridViewColumn Header="Image" Width="150">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Image  Width="120" Height="120" Source="{Binding Image}"   />
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                    <GridViewColumn Header="Product Name" DisplayMemberBinding="{Binding ProductName}"  Width="200"/>
+                                    <GridViewColumn Header="Quantity" DisplayMemberBinding="{Binding Quantity}" Width="100"/>
+                                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price}" Width="120"/>
+                                    <GridViewColumn Header="Origin" DisplayMemberBinding="{Binding Origin}" Width="100"/>
+                                    <GridViewColumn Header="Category" DisplayMemberBinding="{Binding Category.CategoryName}" Width="150" />
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Profile">
+                    <Grid>
+                       
+                        <Border Grid.Row="1" Margin="20" Padding="10" BorderBrush="Gray" BorderThickness="1" 
+CornerRadius="5" Background="#F5F5F5" x:Name="CustomerForm" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <StackPanel>
+                                <Label Content="Update Profile" FontSize="18" FontWeight="Bold"/>
+
+                                <!-- Full Name -->
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                                    <Label Content="Full Name:" Width="100"/>
+                                    <TextBox x:Name="txtFullName" Width="250" Height="25"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                                    <Label Content="Username:" Width="100"/>
+                                    <TextBox x:Name="txtUser" Width="250" Height="25"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                                    <Label Content="Password:" Width="100"/>
+                                    <TextBox x:Name="txtPassword" Width="250" Height="25"/>
+                                </StackPanel>
+
+                                <!-- Phone Number -->
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                                    <Label Content="Phone:" Width="100"/>
+                                    <TextBox x:Name="txtPhone" Width="250" Height="25"/>
+                                </StackPanel>
+
+                                <!-- Points -->
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                                    <Label Content="Points:" Width="100"/>
+                                    <TextBox x:Name="txtPoints" Width="250" Height="25" IsReadOnly="True"/>
+                                </StackPanel>
+
+                                <!-- Buttons -->
+                                <StackPanel Orientation="Horizontal" Margin="10,10,0,10">
+                                    <Button Content="Update" Padding="10" Margin="10,0,0,0" Click="ButtonUpdate_Click"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+
     </Grid>
 </Window>
