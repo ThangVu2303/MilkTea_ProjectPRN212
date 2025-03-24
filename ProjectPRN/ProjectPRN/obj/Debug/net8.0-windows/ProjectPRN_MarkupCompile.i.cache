@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Gigabyte\OneDrive\Máy tính\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\
+D:\Github1\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\
 ProjectPRN
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Gigabyte\OneDrive\Máy tính\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\App.xaml
-10697115590
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+D:\Github1\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\App.xaml
+11816694746
 
-34-330728893
-233-602782883
-AdminEmployee.xaml;AdminHome.xaml;AdminMainWindow.xaml;AdminProductPage.xaml;CreateCustomerWindow.xaml;CustomerWindow.xaml;LoginWindow.xaml;MainWindow.xaml;OrderViewWindow.xaml;StaffWindow.xaml;
+36-1207954876
+233-1203290601
+AdminEmployee.xaml;AdminHome.xaml;AdminMainWindow.xaml;AdminProductPage.xaml;AdminStaticPage.xaml;CreateCustomerWindow.xaml;CustomerWindow.xaml;LoginWindow.xaml;MainWindow.xaml;OrderViewWindow.xaml;StaffWindow.xaml;
 
-False
+True
 
