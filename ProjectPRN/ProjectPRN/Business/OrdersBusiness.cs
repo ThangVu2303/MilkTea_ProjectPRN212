@@ -54,6 +54,25 @@ namespace ProjectPRN.Business
             }
         }
 
+        public List<Order> GetOrdersByDate(string dateFrom, string dateTo)
+        {
+            try
+            {
+                DateOnly fromDate = DateOnly.Parse(dateFrom);
+                DateOnly toDate = DateOnly.Parse(dateTo);
+
+                return _context.Orders
+                    .Include(o => o.Staff)
+                    .Include(o => o.Customer)
+                    .Where(o => o.DateCreate >= fromDate && o.DateCreate <= toDate)
+                    .ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Lỗi khi lấy đơn hàng theo ngày: {ex.Message}", ex);
+            }
+        }
+
         public Order Get1Orders()
         {
             try
