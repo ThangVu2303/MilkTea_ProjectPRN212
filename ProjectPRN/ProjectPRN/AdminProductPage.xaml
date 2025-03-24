@@ -8,14 +8,14 @@
         Title="Admin Products" 
         Loaded="Page_Loaded">
     <Grid Margin="20" Background="#F5F5F5">
-        <!-- Thêm nền nhẹ -->
+       
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Form -->
+          
             <RowDefinition Height="*"/>
-            <!-- DataGrid -->
+          
             <RowDefinition Height="Auto"/>
-            <!-- Buttons -->
+           
         </Grid.RowDefinitions>
 
         <!-- Form Inputs -->

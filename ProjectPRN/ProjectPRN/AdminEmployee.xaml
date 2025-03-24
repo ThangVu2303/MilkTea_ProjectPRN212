@@ -8,14 +8,14 @@
         Title="Employee Management" 
         Loaded="Page_Loaded">
     <Grid Margin="20">
-        <!-- Tăng Margin để có khoảng cách đẹp hơn -->
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Phần Form -->
+            
             <RowDefinition Height="*"/>
-            <!-- Phần DataGrid -->
+            
             <RowDefinition Height="Auto"/>
-            <!-- Phần Buttons -->
+           
         </Grid.RowDefinitions>
 
         <!-- Form Inputs -->

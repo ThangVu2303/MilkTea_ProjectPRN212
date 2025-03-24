@@ -137,8 +137,8 @@ namespace ProjectPRN
             txtUserId.Text = "";
             txtUsername.Text = "";
             txtPassword.Text = "";
-            txtFullName.Text = ""; // Thêm FullName
-            txtPhone.Text = "";    // Thêm Phone
+            txtFullName.Text = ""; 
+            txtPhone.Text = "";   
             cboRoleId.SelectedIndex = -1;
         }
 
