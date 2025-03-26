@@ -35,6 +35,9 @@ namespace ProjectPRN
                 {
                     MessageBox.Show($"Chào mừng {acc.FullName}! ",
                                    "Đăng nhập thành công", MessageBoxButton.OK, MessageBoxImage.Information);
+                    AdminMainWindow admin = new AdminMainWindow();
+                    admin.Show();
+                    this.Close();
                 }
                 if (acc.RoleId == 2)
                 {

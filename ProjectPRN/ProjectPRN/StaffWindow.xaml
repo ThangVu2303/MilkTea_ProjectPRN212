@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:ProjectPRN"
         mc:Ignorable="d"
         Title="StaffWindow" WindowState="Maximized" WindowStyle="None" d:DesignHeight="707.62" d:DesignWidth="1380.367" >
+    
     <Grid>
 
         <Grid.RowDefinitions>

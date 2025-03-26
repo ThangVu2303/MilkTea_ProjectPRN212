@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Admin Home" 
         Loaded="Page_Loaded">
-    <Grid Margin="20" Background="#F5F5F5">
+    <Grid Margin="20">
+        
         <!-- Thêm nền nhẹ -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

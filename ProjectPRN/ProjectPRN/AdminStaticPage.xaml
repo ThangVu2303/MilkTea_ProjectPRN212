@@ -1,0 +1,95 @@
+﻿<Page x:Class="ProjectPRN.AdminStaticPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="Admin Statistics" Loaded="Page_Loaded">
+    
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Filters -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <Label Content="Từ ngày:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <DatePicker x:Name="dpFrom" Width="120" Margin="0,0,10,0" ToolTip="Chọn ngày bắt đầu"/>
+            <Label Content="Đến ngày:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <DatePicker x:Name="dpTo" Width="120" Margin="0,0,10,0" ToolTip="Chọn ngày kết thúc"/>
+            <Button x:Name="btnSearch" Content="Tìm kiếm" Width="100" Margin="10,0,0,0" Click="BtnSearch_Click"/>
+        </StackPanel>
+
+        <!-- Orders DataGrid -->
+        <DataGrid x:Name="dgvOrder" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="DgvOrder_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}"/>
+                <DataGridTextColumn Header="Employee ID" Binding="{Binding StaffId}"/>
+                <DataGridTextColumn Header="Total Payment" Binding="{Binding Total, StringFormat=C}"/>
+                <DataGridTextColumn Header="Bill's Date" Binding="{Binding DateCreate}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Order Details DataGrid -->
+        <DataGrid x:Name="dgvOrderDetails" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" Margin="0,10,0,0" Height="150">
+            <DataGrid.Background>
+                <ImageBrush/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product Name" Binding="{Binding ProductName}" Width="*"/>
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat=C}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Employee and Manager Info -->
+        <Grid Grid.Row="3" Margin="0,10,0,0" Background="#FF4EA693">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Employee Info -->
+            <GroupBox Grid.Column="0" Header="Employee Info" Margin="0,0,5,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Content="ID:"/>
+                    <TextBox x:Name="txtEId" Grid.Row="0" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="1" Grid.Column="0" Content="Name:"/>
+                    <TextBox x:Name="txtEName" Grid.Row="1" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="2" Grid.Column="0" Content="DoB:"/>
+                    <TextBox x:Name="txtEDob" Grid.Row="2" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="3" Grid.Column="0" Content="Email:"/>
+                    <TextBox x:Name="txtEEmail" Grid.Row="3" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="4" Grid.Column="0" Content="Phone:"/>
+                    <TextBox x:Name="txtEPhone" Grid.Row="4" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="5" Grid.Column="0" Content="Gender:"/>
+                    <StackPanel Grid.Row="5" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="51,0,0,0">
+                        <RadioButton x:Name="rdbMale1" Content="Male" IsEnabled="False" Margin="0,0,10,0"/>
+                        <RadioButton x:Name="rdbFemale1" Content="Female" IsEnabled="False"/>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+        </Grid>
+
+        <!-- Total Revenue -->
+        <Label x:Name="lblTotal" Grid.Row="4" Content="Total Revenue: 0 VND" FontSize="16" Margin="0,10,0,0" Foreground="#FFF0EAEA"/>
+    </Grid>
+</Page>

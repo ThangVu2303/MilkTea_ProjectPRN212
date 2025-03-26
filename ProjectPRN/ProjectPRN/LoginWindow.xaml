@@ -9,6 +9,7 @@
         Title="LoginWindow" WindowState="Maximized" WindowStyle="None" d:DesignHeight="605" d:DesignWidth="970">
 
     <Grid>
+        
         <!-- Top Panel -->
         <Border Background="#0078D7" Height="69" VerticalAlignment="Top">
             <Grid>

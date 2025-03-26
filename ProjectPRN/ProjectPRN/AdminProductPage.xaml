@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Admin Products" 
         Loaded="Page_Loaded">
+   
     <Grid Margin="20" Background="#F5F5F5">
         <!-- Thêm nền nhẹ -->
         <Grid.RowDefinitions>
@@ -19,7 +20,10 @@
         </Grid.RowDefinitions>
 
         <!-- Form Inputs -->
-        <Border Grid.Row="0" Background="White" BorderBrush="#CCCCCC" BorderThickness="1" Padding="15" Margin="0,0,0,20" CornerRadius="8">
+        <Border Grid.Row="0" BorderBrush="#CCCCCC" BorderThickness="1" Padding="15" Margin="0,0,0,20" CornerRadius="8">
+            <Border.Background>
+                <ImageBrush/>
+            </Border.Background>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
