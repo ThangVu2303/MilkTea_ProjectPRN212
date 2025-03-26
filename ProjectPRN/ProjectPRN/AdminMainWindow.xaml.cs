@@ -44,6 +44,7 @@ namespace ProjectPRN
         {
             _account = account;
             txtWelcome.Content = $"Chào mừng {_account.Username}!";
+            WindowState = WindowState.Maximized;
             // Timer đã được khởi tạo trong hàm tạo mặc định, không cần làm lại
         }
 

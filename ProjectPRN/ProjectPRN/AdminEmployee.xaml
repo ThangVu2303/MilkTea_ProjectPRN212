@@ -7,19 +7,95 @@
         mc:Ignorable="d"
         Title="Employee Management" 
         Loaded="Page_Loaded">
+
+    <Page.Resources>
+        <!-- TextBox Style -->
+        <Style TargetType="TextBox">
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="3">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ComboBox Style -->
+        <Style TargetType="ComboBox">
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+        <!-- Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#4A90E2"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5,0,5,0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="5"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#357ABD"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#2A6099"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- DataGrid Style -->
+        <Style TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#E0E0E0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowBackground" Value="#FFFFFF"/>
+            <Setter Property="AlternatingRowBackground" Value="#F9F9F9"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+        </Style>
+    </Page.Resources>
+    <Page.Background>
+        <ImageBrush ImageSource="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg"/>
+    </Page.Background>
+
     <Grid Margin="20">
-        <!-- Tăng Margin để có khoảng cách đẹp hơn -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Phần Form -->
             <RowDefinition Height="*"/>
-            <!-- Phần DataGrid -->
             <RowDefinition Height="Auto"/>
-            <!-- Phần Buttons -->
         </Grid.RowDefinitions>
 
         <!-- Form Inputs -->
-        <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="1" Padding="10" Margin="0,0,0,20">
+        <Border Grid.Row="0" 
+                Background="White"
+                CornerRadius="8"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                Padding="15"
+                Margin="0,0,0,20">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
@@ -36,47 +112,59 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Content="User ID:" VerticalAlignment="Center"/>
-                <TextBox x:Name="txtUserId" Grid.Row="0" Grid.Column="1" Margin="5" Width="200" IsReadOnly="True"/>
+                <Label Grid.Row="0" Grid.Column="0" Content="User ID:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtUserId" Grid.Row="0" Grid.Column="1" Margin="5" Width="250" IsReadOnly="True"/>
 
-                <Label Grid.Row="1" Grid.Column="0" Content="Username:" VerticalAlignment="Center"/>
-                <TextBox x:Name="txtUsername" Grid.Row="1" Grid.Column="1" Margin="5" Width="200"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Username:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtUsername" Grid.Row="1" Grid.Column="1" Margin="5" Width="250"/>
 
-                <Label Grid.Row="2" Grid.Column="0" Content="Password:" VerticalAlignment="Center"/>
-                <TextBox x:Name="txtPassword" Grid.Row="2" Grid.Column="1" Margin="5" Width="200"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="Password:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtPassword" Grid.Row="2" Grid.Column="1" Margin="5" Width="250"/>
 
-                <Label Grid.Row="3" Grid.Column="0" Content="Role:" VerticalAlignment="Center"/>
-                <ComboBox x:Name="cboRoleId" Grid.Row="3" Grid.Column="1" Margin="5" Width="200" 
+                <Label Grid.Row="3" Grid.Column="0" Content="Role:" FontSize="14" Foreground="#333333"/>
+                <ComboBox x:Name="cboRoleId" Grid.Row="3" Grid.Column="1" Margin="5" Width="250" 
                           DisplayMemberPath="RoleName" SelectedValuePath="RoleId"/>
 
-                <Label Grid.Row="4" Grid.Column="0" Content="Full Name:" VerticalAlignment="Center"/>
-                <TextBox x:Name="txtFullName" Grid.Row="4" Grid.Column="1" Margin="5" Width="200"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Full Name:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtFullName" Grid.Row="4" Grid.Column="1" Margin="5" Width="250"/>
 
-                <Label Grid.Row="5" Grid.Column="0" Content="Phone:" VerticalAlignment="Center"/>
-                <TextBox x:Name="txtPhone" Grid.Row="5" Grid.Column="1" Margin="5" Width="200"/>
+                <Label Grid.Row="5" Grid.Column="0" Content="Phone:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtPhone" Grid.Row="5" Grid.Column="1" Margin="5" Width="250"/>
             </Grid>
         </Border>
 
         <!-- DataGrid -->
-        <DataGrid x:Name="dataGridView1" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" 
-                  SelectionChanged="DataGridView1_SelectionChanged" Margin="0,0,0,20"
-                  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="User ID" Binding="{Binding AccountId}" Width="Auto"/>
-                <DataGridTextColumn Header="Username" Binding="{Binding Username}" Width="*"/>
-                <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"/>
-                <DataGridTextColumn Header="Role ID" Binding="{Binding RoleId}" Width="Auto"/>
-                <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*"/>
-                <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="*"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <Border Grid.Row="1" 
+                Background="White"
+                CornerRadius="8"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                Margin="0,0,0,20">
+            <DataGrid x:Name="dataGridView1" 
+                      AutoGenerateColumns="False" 
+                      IsReadOnly="True" 
+                      SelectionChanged="DataGridView1_SelectionChanged" 
+                      Margin="10">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="User ID" Binding="{Binding AccountId}" Width="Auto"/>
+                    <DataGridTextColumn Header="Username" Binding="{Binding Username}" Width="*"/>
+                    <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"/>
+                    <DataGridTextColumn Header="Role ID" Binding="{Binding RoleId}" Width="Auto"/>
+                    <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*"/>
+                    <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
 
         <!-- Buttons -->
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
-            <Button Content="Add" Width="100" Margin="0,0,10,0" Click="BtnAdd_Click"/>
-            <Button Content="Update" Width="100" Margin="0,0,10,0" Click="BtnUpdate_Click"/>
-            <Button Content="Delete" Width="100" Margin="0,0,10,0" Click="BtnDelete_Click"/>
-            <Button Content="Cancel" Width="100" Click="BtnCancel_Click"/>
+        <StackPanel Grid.Row="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right" 
+                    Margin="0,10,0,0">
+            <Button Content="Add" Width="100" Click="BtnAdd_Click"/>
+            <Button Content="Update" Width="100" Click="BtnUpdate_Click"/>
+            <Button Content="Delete" Width="100" Click="BtnDelete_Click" Background="#E74C3C"/>
+            <Button Content="Cancel" Width="100" Click="BtnCancel_Click" Background="#95A5A6"/>
         </StackPanel>
     </Grid>
 </Page>

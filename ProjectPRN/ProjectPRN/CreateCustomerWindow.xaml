@@ -1,0 +1,69 @@
+﻿<Window x:Class="ProjectPRN.CreateCustomerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="CreateCustomerWindow" WindowState="Maximized" WindowStyle="None" d:DesignHeight="707.62" d:DesignWidth="1380.367" >
+    <Grid>
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg"/>
+            </Grid.Background>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <DockPanel Grid.Row="0"  Background="#007ACC" Height="70" VerticalAlignment="Top" >
+                <Image DockPanel.Dock="Left" Source="/LogoImage/logo.png" Width="46" Height="45" Margin="10" HorizontalAlignment="Left"/>
+                <Label DockPanel.Dock="Left" Content="Milk Tea" Foreground="White" FontSize="28" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                <Image DockPanel.Dock="Right" Source="/LogoImage/close.png" Width="30" Height="30" Margin="10" Cursor="Hand" HorizontalAlignment="Right" VerticalAlignment="Center" MouseLeftButtonDown="Image_MouseLeftButtonDown" />
+                <Label DockPanel.Dock="Right" x:Name="txtUsername"  Foreground="White" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10" />
+                <Label DockPanel.Dock="Right" x:Name="txtTime" Content="HH:MM:SS DD-MM-YYYY" Foreground="White" FontSize="16" FontWeight="Bold"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+            </DockPanel>
+            <Border Grid.Row="1" Margin="20" Padding="10" BorderBrush="Gray" BorderThickness="1" 
+        CornerRadius="5" Background="#F5F5F5" x:Name="CustomerForm" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel>
+                    <Label Content="Create New Customer" FontSize="18" FontWeight="Bold"/>
+
+                    <!-- Full Name -->
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <Label Content="Full Name:" Width="100"/>
+                        <TextBox x:Name="txtFullName" Width="250" Height="25"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <Label Content="Username:" Width="100"/>
+                        <TextBox x:Name="txtUser" Width="250" Height="25"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <Label Content="Password:" Width="100"/>
+                        <TextBox x:Name="txtPassword" Width="250" Height="25"/>
+                    </StackPanel>
+
+                    <!-- Phone Number -->
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <Label Content="Phone:" Width="100"/>
+                        <TextBox x:Name="txtPhone" Width="250" Height="25"/>
+                    </StackPanel>
+
+                    <!-- Points -->
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                        <Label Content="Points:" Width="100"/>
+                        <TextBox x:Name="txtPoints" Width="250" Height="25"/>
+                    </StackPanel>
+
+                    <!-- Buttons -->
+                    <StackPanel Orientation="Horizontal" Margin="10,10,0,10">
+                        <Button Content="Create" Padding="10" Margin="10,0,0,0" Click="ButtonCreateCustomer_Click"/>
+                        <Button Content="Cancel" Padding="10" Margin="10,0,0,0" Click="ButtonCancel_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
