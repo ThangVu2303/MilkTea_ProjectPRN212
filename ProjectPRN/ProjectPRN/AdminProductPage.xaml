@@ -7,28 +7,100 @@
         mc:Ignorable="d"
         Title="Admin Products" 
         Loaded="Page_Loaded">
-   
-    <Grid Margin="20" Background="#F5F5F5">
-        <!-- Thêm nền nhẹ -->
+
+    <Page.Resources>
+        <!-- TextBox Style -->
+        <Style TargetType="TextBox">
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="3">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ComboBox Style -->
+        <Style TargetType="ComboBox">
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <!-- Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#4A90E2"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5,0,5,0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="5"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#357ABD"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#2A6099"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- DataGrid Style -->
+        <Style TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#E0E0E0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowBackground" Value="#FFFFFF"/>
+            <Setter Property="AlternatingRowBackground" Value="#F9F9F9"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+        </Style>
+    </Page.Resources>
+    <Page.Background>
+        <ImageBrush ImageSource="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg"/>
+    </Page.Background>
+
+    <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Form -->
             <RowDefinition Height="*"/>
-            <!-- DataGrid -->
             <RowDefinition Height="Auto"/>
-            <!-- Buttons -->
         </Grid.RowDefinitions>
 
         <!-- Form Inputs -->
-        <Border Grid.Row="0" BorderBrush="#CCCCCC" BorderThickness="1" Padding="15" Margin="0,0,0,20" CornerRadius="8">
-            <Border.Background>
-                <ImageBrush/>
-            </Border.Background>
+        <Border Grid.Row="0" 
+                Background="White"
+                CornerRadius="8"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                Padding="15"
+                Margin="0,0,0,20">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
@@ -40,52 +112,75 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Content="Product ID:" VerticalAlignment="Center" FontSize="14" Foreground="#555555"/>
-                <TextBox x:Name="txtProductId" Grid.Row="0" Grid.Column="1" Margin="5" Width="200" Height="30" VerticalContentAlignment="Center"/>
+                <Label Grid.Row="0" Grid.Column="0" Content="Product ID:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtProductId" Grid.Row="0" Grid.Column="1" Margin="5" Width="250" Height="30" IsReadOnly="True"/>
 
-                <Label Grid.Row="1" Grid.Column="0" Content="Product Name:" VerticalAlignment="Center" FontSize="14" Foreground="#555555"/>
-                <TextBox x:Name="txtProductName" Grid.Row="1" Grid.Column="1" Margin="5" Width="200" Height="30" VerticalContentAlignment="Center"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Product Name:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtProductName" Grid.Row="1" Grid.Column="1" Margin="5" Width="250" Height="30"/>
 
-                <Label Grid.Row="2" Grid.Column="0" Content="Price:" VerticalAlignment="Center" FontSize="14" Foreground="#555555"/>
-                <TextBox x:Name="txtPrice" Grid.Row="2" Grid.Column="1" Margin="5" Width="200" Height="30" VerticalContentAlignment="Center"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="Price:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtPrice" Grid.Row="2" Grid.Column="1" Margin="5" Width="250" Height="30"/>
 
-                <Label Grid.Row="3" Grid.Column="0" Content="Origin:" VerticalAlignment="Center" FontSize="14" Foreground="#555555"/>
-                <TextBox x:Name="txtOrigin" Grid.Row="3" Grid.Column="1" Margin="5" Width="200" Height="30" VerticalContentAlignment="Center"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Origin:" FontSize="14" Foreground="#333333"/>
+                <TextBox x:Name="txtOrigin" Grid.Row="3" Grid.Column="1" Margin="5" Width="250" Height="30"/>
 
-                <Label Grid.Row="4" Grid.Column="0" Content="Category ID:" VerticalAlignment="Center" FontSize="14" Foreground="#555555"/>
-                <ComboBox x:Name="comboBox1" Grid.Row="4" Grid.Column="1" Margin="5" Width="200" Height="30" 
-                          DisplayMemberPath="CategoryId" SelectedValuePath="CategoryId" VerticalContentAlignment="Center"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Category:" FontSize="14" Foreground="#333333"/>
+                <ComboBox x:Name="comboBox1" Grid.Row="4" Grid.Column="1" Margin="5" Width="250" Height="30" 
+                          DisplayMemberPath="CategoryName" SelectedValuePath="CategoryId"/>
 
-                <Label Grid.Row="5" Grid.Column="0" Content="Image:" VerticalAlignment="Center" FontSize="14" Foreground="#555555"/>
-                <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
-                    <TextBox x:Name="txtPicture" Width="200" Height="30" Margin="5" TextChanged="TxtPicture_TextChanged" VerticalContentAlignment="Center"/>
-                    <Button Content="Browse" Width="100" Height="30" Margin="5" Click="BtnBrowse_Click" FontSize="14"/>
+                <Label Grid.Row="5" Grid.Column="0" Content="Image:" FontSize="14" Foreground="#333333"/>
+                <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal">
+                    <TextBox x:Name="txtPicture" Width="180" Height="30" Margin="5" TextChanged="TxtPicture_TextChanged"/>
+                    <Button Content="Browse" Width="60" Height="30" Margin="5" Click="BtnBrowse_Click"/>
                 </StackPanel>
 
                 <!-- Image Preview -->
-                <Image x:Name="pictureBox1" Grid.Row="0" Grid.Column="3" Grid.RowSpan="6" Width="200" Height="200" Margin="20,0" Stretch="Uniform"/>
+                <Border Grid.Row="0" Grid.Column="2" Grid.RowSpan="6" 
+                        Width="200" Height="200" Margin="20,0" 
+                        BorderBrush="#E0E0E0" BorderThickness="1" CornerRadius="5">
+                    <Image x:Name="pictureBox1" Stretch="Uniform"/>
+                </Border>
             </Grid>
         </Border>
 
         <!-- DataGrid -->
-        <DataGrid x:Name="dataGridView1" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" 
-                  SelectionChanged="DataGridView1_SelectionChanged" Margin="0,0,0,20" Background="White" BorderBrush="#CCCCCC" BorderThickness="1">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Product ID" Binding="{Binding ProductId}" Width="Auto"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding ProductName}" Width="*"/>
-                <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat=C}" Width="Auto"/>
-                <DataGridTextColumn Header="Origin" Binding="{Binding Origin}" Width="*"/>
-                <DataGridTextColumn Header="Category ID" Binding="{Binding CategoryId}" Width="Auto"/>
-                <DataGridTextColumn Header="Image" Binding="{Binding Image}" Width="*"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <Border Grid.Row="1" 
+                Background="White"
+                CornerRadius="8"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                Margin="0,0,0,20">
+            <DataGrid x:Name="dataGridView1" 
+                      AutoGenerateColumns="False" 
+                      IsReadOnly="True" 
+                      SelectionChanged="DataGridView1_SelectionChanged" 
+                      Margin="10">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Product ID" Binding="{Binding ProductId}" Width="Auto"/>
+                    <DataGridTextColumn Header="Name" Binding="{Binding ProductName}" Width="*"/>
+                    <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat=C}" Width="Auto"/>
+                    <DataGridTextColumn Header="Origin" Binding="{Binding Origin}" Width="*"/>
+                    <DataGridTextColumn Header="Category ID" Binding="{Binding CategoryId}" Width="Auto"/>
+                    <DataGridTemplateColumn Header="Image" Width="100">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Image}" Width="50" Height="50" Stretch="Uniform"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
 
         <!-- Buttons -->
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
-            <Button Content="Add" Width="100" Height="35" Margin="0,0,10,0" Click="BtnAdd_Click" FontSize="14"/>
-            <Button Content="Update" Width="100" Height="35" Margin="0,0,10,0" Click="BtnUpdate_Click" FontSize="14"/>
-            <Button Content="Delete" Width="100" Height="35" Margin="0,0,10,0" Click="BtnDelete_Click" FontSize="14"/>
-            <Button Content="Clear" Width="100" Height="35" Margin="0,0,0,0" Click="BtnClear_Click" FontSize="14"/>
+        <StackPanel Grid.Row="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right" 
+                    Margin="0,10,0,0">
+            <Button Content="Add" Width="100" Height="35" Click="BtnAdd_Click"/>
+            <Button Content="Update" Width="100" Height="35" Click="BtnUpdate_Click"/>
+            <Button Content="Delete" Width="100" Height="35" Click="BtnDelete_Click" Background="#E74C3C"/>
+            <Button Content="Clear" Width="100" Height="35" Click="BtnClear_Click" Background="#95A5A6"/>
         </StackPanel>
     </Grid>
 </Page>
