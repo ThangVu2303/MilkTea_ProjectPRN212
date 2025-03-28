@@ -78,5 +78,11 @@ namespace ProjectPRN
                 Application.Current.Shutdown();
             }
         }
+
+        private void ForgotPassword_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            ForgotPasswordWindow forgotPasswordWindow = new ForgotPasswordWindow();
+            forgotPasswordWindow.ShowDialog();
+        }
     }
 }

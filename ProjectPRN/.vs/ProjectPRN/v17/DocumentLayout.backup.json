@@ -3,28 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\productbusinesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\productbusinesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\models\\disposedmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\disposedmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\productbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\productbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\inventorymanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\inventorymanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\orderviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\orderviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\customerbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\customerbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\models\\milkteacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\milkteacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\staffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\staffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\inventorymanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\inventorymanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\projectprn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\projectprn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\customerbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\customerbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\productbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\productbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\adminbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminbusinesswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\productbusinesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\productbusinesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\orderviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\orderviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\adminbusinesswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,32 +95,12 @@
       "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\staffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\models\\disposedmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\disposedmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\customerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\models\\milkteacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\milkteacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\createcustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -101,18 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\adminemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\adminemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\projectprn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\projectprn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD54730F-4A56-4752-857C-F3A84A43ED7D}|ProjectPRN\\ProjectPRN.csproj|c:\\users\\gigabyte\\onedrive\\m\u00E1y t\u00EDnh\\milktea_projectprn212\\projectprn\\projectprn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -181,7 +197,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -234,68 +250,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductBusinessWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProductBusinessWindow.xaml",
-              "RelativeDocumentMoniker": "ProjectPRN\\ProductBusinessWindow.xaml",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProductBusinessWindow.xaml",
-              "RelativeToolTip": "ProjectPRN\\ProductBusinessWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-28T10:21:53.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerBusinessWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerBusinessWindow.xaml",
-              "RelativeDocumentMoniker": "ProjectPRN\\CustomerBusinessWindow.xaml",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerBusinessWindow.xaml",
-              "RelativeToolTip": "ProjectPRN\\CustomerBusinessWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-28T10:04:45.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductBusinessWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProductBusinessWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\ProductBusinessWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProductBusinessWindow.xaml.cs*",
-              "RelativeToolTip": "ProjectPRN\\ProductBusinessWindow.xaml.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowFYAAAAJAAAAAAAAAA==",
+              "Title": "InventoryManagementWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\InventoryManagementWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\InventoryManagementWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\InventoryManagementWindow.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\InventoryManagementWindow.xaml.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAmwGkBAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T10:29:45.059Z",
+              "WhenOpened": "2025-03-28T14:32:58.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryManagementWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\InventoryManagementWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\InventoryManagementWindow.xaml",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\InventoryManagementWindow.xaml",
+              "RelativeToolTip": "ProjectPRN\\InventoryManagementWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T14:32:39.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPasswordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ForgotPasswordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\ForgotPasswordWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ForgotPasswordWindow.xaml.cs*",
+              "RelativeToolTip": "ProjectPRN\\ForgotPasswordWindow.xaml.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwD8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T14:32:03.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AdminBusinessWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminBusinessWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\AdminBusinessWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminBusinessWindow.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\AdminBusinessWindow.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T00:18:14.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminBusinessWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminBusinessWindow.xaml",
-              "RelativeDocumentMoniker": "ProjectPRN\\AdminBusinessWindow.xaml",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminBusinessWindow.xaml",
-              "RelativeToolTip": "ProjectPRN\\AdminBusinessWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-27T21:59:05.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "StaffWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\StaffWindow.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\StaffWindow.xaml",
@@ -307,59 +299,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderViewWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\OrderViewWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\OrderViewWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\OrderViewWindow.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\OrderViewWindow.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:57:08.808Z",
+              "DocumentIndex": 5,
+              "Title": "CustomerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\CustomerWindow.xaml",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerWindow.xaml",
+              "RelativeToolTip": "ProjectPRN\\CustomerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T21:22:37.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomerBusinessWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerBusinessWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\CustomerBusinessWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerBusinessWindow.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\CustomerBusinessWindow.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CustomerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\CustomerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerWindow.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\CustomerWindow.xaml.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwGIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T10:17:12.334Z",
+              "WhenOpened": "2025-03-23T17:40:31.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MilkTeaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\MilkTeaContext.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\Models\\MilkTeaContext.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\MilkTeaContext.cs",
+              "RelativeToolTip": "ProjectPRN\\Models\\MilkTeaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T14:45:51.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Customer.cs",
-              "RelativeToolTip": "ProjectPRN\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T22:09:09.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StaffWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\StaffWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\StaffWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\StaffWindow.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\StaffWindow.xaml.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAApwPsAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T18:27:04.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "DisposedMaterial.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\DisposedMaterial.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\DisposedMaterial.cs",
@@ -371,25 +353,44 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Order.cs",
-              "RelativeToolTip": "ProjectPRN\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T19:18:40.135Z",
+              "Title": "ForgotPasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ForgotPasswordWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\ForgotPasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ForgotPasswordWindow.xaml",
+              "RelativeToolTip": "ProjectPRN\\ForgotPasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T14:31:43.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
+              "Title": "AdminBusinessWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminBusinessWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\AdminBusinessWindow.xaml",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminBusinessWindow.xaml",
+              "RelativeToolTip": "ProjectPRN\\AdminBusinessWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-27T21:59:05.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderViewWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\OrderViewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\OrderViewWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\OrderViewWindow.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\OrderViewWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:57:08.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\LoginWindow.xaml",
@@ -401,55 +402,154 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ProjectPRN\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\MainWindow.xaml",
-              "RelativeToolTip": "ProjectPRN\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T14:31:56.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\LoginWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml.cs",
               "RelativeToolTip": "ProjectPRN\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwEEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T21:15:04.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomerWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerWindow.xaml",
-              "RelativeDocumentMoniker": "ProjectPRN\\CustomerWindow.xaml",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerWindow.xaml",
-              "RelativeToolTip": "ProjectPRN\\CustomerWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T21:22:37.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MilkTeaContext.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\MilkTeaContext.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\Models\\MilkTeaContext.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\MilkTeaContext.cs",
-              "RelativeToolTip": "ProjectPRN\\Models\\MilkTeaContext.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAA7wC4AAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T14:45:51.5Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectPRN\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\appsettings.json",
+              "RelativeToolTip": "ProjectPRN\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T14:43:36.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductBusinessWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProductBusinessWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\ProductBusinessWindow.xaml",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProductBusinessWindow.xaml",
+              "RelativeToolTip": "ProjectPRN\\ProductBusinessWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T10:21:53.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerBusinessWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerBusinessWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\CustomerBusinessWindow.xaml",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerBusinessWindow.xaml",
+              "RelativeToolTip": "ProjectPRN\\CustomerBusinessWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T10:04:45.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectPRN.csproj",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+              "RelativeDocumentMoniker": "ProjectPRN\\ProjectPRN.csproj",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+              "RelativeToolTip": "ProjectPRN\\ProjectPRN.csproj",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T16:31:56.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminBusinessWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminBusinessWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\AdminBusinessWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminBusinessWindow.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\AdminBusinessWindow.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T00:18:14.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductBusinessWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProductBusinessWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\ProductBusinessWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProductBusinessWindow.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\ProductBusinessWindow.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwEIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T10:29:45.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerBusinessWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerBusinessWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\CustomerBusinessWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerBusinessWindow.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\CustomerBusinessWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T10:17:12.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Customer.cs",
+              "RelativeToolTip": "ProjectPRN\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:09:09.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StaffWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\StaffWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\StaffWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\StaffWindow.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\StaffWindow.xaml.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAApwPsAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T18:27:04.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Order.cs",
+              "RelativeToolTip": "ProjectPRN\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T19:18:40.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\MainWindow.xaml",
+              "RelativeToolTip": "ProjectPRN\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T14:31:56.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\Product.cs",
@@ -461,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "CreateCustomerWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CreateCustomerWindow.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\CreateCustomerWindow.xaml",
@@ -472,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "AdminHome.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminHome.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminHome.xaml",
@@ -483,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "AdminMainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminMainWindow.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminMainWindow.xaml",
@@ -494,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "AdminProductPage.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminProductPage.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminProductPage.xaml",
@@ -505,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "AdminStaticPage.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminStaticPage.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminStaticPage.xaml",
@@ -516,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "OrderViewWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\OrderViewWindow.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\OrderViewWindow.xaml",
@@ -527,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\App.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\App.xaml",
@@ -539,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "AdminEmployee.xaml",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminEmployee.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminEmployee.xaml",
@@ -550,43 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CustomerWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\CustomerWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CustomerWindow.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\CustomerWindow.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAMwCkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:40:31.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProjectPRN.csproj",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
-              "RelativeDocumentMoniker": "ProjectPRN\\ProjectPRN.csproj",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
-              "RelativeToolTip": "ProjectPRN\\ProjectPRN.csproj",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-27T16:31:56.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\appsettings.json",
-              "RelativeDocumentMoniker": "ProjectPRN\\appsettings.json",
-              "ToolTip": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\appsettings.json",
-              "RelativeToolTip": "ProjectPRN\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T14:43:36.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "AdminMainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminMainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminMainWindow.xaml.cs",
@@ -598,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "AdminStaticPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminStaticPage.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminStaticPage.xaml.cs",
@@ -610,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "AdminHome.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\AdminHome.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\AdminHome.xaml.cs",
@@ -622,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "AccountBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Business\\AccountBusiness.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Business\\AccountBusiness.cs",
@@ -634,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "OrdersBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Business\\OrdersBusiness.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Business\\OrdersBusiness.cs",
@@ -646,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "CreateCustomerWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\CreateCustomerWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\CreateCustomerWindow.xaml.cs",
@@ -658,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Account.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\Account.cs",
@@ -670,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "OrdersDetail.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\OrdersDetail.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\OrdersDetail.cs",
@@ -682,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "Staff.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Staff.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\Staff.cs",
@@ -694,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\CartItem.cs",
@@ -706,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
@@ -719,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "ProjectPRN",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
               "RelativeDocumentMoniker": "ProjectPRN\\ProjectPRN.csproj",
@@ -730,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\Category.cs",
@@ -742,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Gigabyte\\OneDrive\\M\u00E1y t\u00EDnh\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\MainWindow.xaml.cs",

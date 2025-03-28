@@ -162,7 +162,10 @@
                                 <Label Content="Phone:" Width="100"/>
                                 <TextBox x:Name="txtPhone" Width="300" Height="25"/>
                             </StackPanel>
-
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                <Label Content="Email:" Width="100"/>
+                                <TextBox x:Name="txtEmail" Width="300" Height="25"/>
+                            </StackPanel>
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                                 <Label Content="Points:" Width="100"/>
                                 <TextBox x:Name="txtPoints" Width="300" Height="25"/>
@@ -182,6 +185,7 @@
                                 <GridViewColumn Header="Customer ID" DisplayMemberBinding="{Binding CustomerId}" />
                                 <GridViewColumn Header="Full Name" DisplayMemberBinding="{Binding Account.FullName}" />
                                 <GridViewColumn Header="Phone" DisplayMemberBinding="{Binding Account.Phone}" />
+                                <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Account.Email}" Width="150"/>
                                 <GridViewColumn Header="Points" DisplayMemberBinding="{Binding Point}" />
 
                             </GridView>

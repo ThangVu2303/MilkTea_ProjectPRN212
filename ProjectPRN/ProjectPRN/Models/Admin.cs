@@ -11,8 +11,6 @@ public partial class Admin
 
     public DateOnly Dob { get; set; }
 
-    public string Email { get; set; } = null!;
-
     public int AccountId { get; set; }
 
     public virtual Account Account { get; set; } = null!;

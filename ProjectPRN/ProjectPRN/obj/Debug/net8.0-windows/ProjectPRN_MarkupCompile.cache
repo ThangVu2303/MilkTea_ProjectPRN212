@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Gigabyte\OneDrive\Máy tính\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\App.xaml
-14-1689205558
+161786509359
 
-40-1335328627
+421891559251
 233-602782883
-AdminBusinessWindow.xaml;AdminEmployee.xaml;AdminHome.xaml;AdminMainWindow.xaml;AdminProductPage.xaml;AdminStaticPage.xaml;CreateCustomerWindow.xaml;CustomerBusinessWindow.xaml;CustomerWindow.xaml;LoginWindow.xaml;MainWindow.xaml;OrderViewWindow.xaml;ProductBusinessWindow.xaml;StaffWindow.xaml;
+AdminBusinessWindow.xaml;AdminEmployee.xaml;AdminHome.xaml;AdminMainWindow.xaml;AdminProductPage.xaml;AdminStaticPage.xaml;CreateCustomerWindow.xaml;CustomerBusinessWindow.xaml;CustomerWindow.xaml;ForgotPasswordWindow.xaml;InventoryManagementWindow.xaml;LoginWindow.xaml;MainWindow.xaml;OrderViewWindow.xaml;ProductBusinessWindow.xaml;StaffWindow.xaml;
 
 False
 

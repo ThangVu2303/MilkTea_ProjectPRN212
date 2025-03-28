@@ -15,6 +15,8 @@ public partial class Account
 
     public string Phone { get; set; } = null!;
 
+    public string? Email { get; set; }
+
     public int RoleId { get; set; }
 
     public virtual Admin? Admin { get; set; }
