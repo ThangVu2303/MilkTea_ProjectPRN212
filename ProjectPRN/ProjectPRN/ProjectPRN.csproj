@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="LogoImage\close.png" />
     <None Remove="LogoImage\logo.png" />
+    <None Remove="LogoImage\—Pngtree—milk tea pearl milk_1481123.jpg" />
     <None Remove="ProductImage\banhmi.jpg" />
     <None Remove="ProductImage\caphe.jpg" />
     <None Remove="ProductImage\download %281%29.jpg" />
@@ -42,6 +43,9 @@
 	  </Resource>
 	  <Resource Include="LogoImage\logo.png">
 	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="LogoImage\—Pngtree—milk tea pearl milk_1481123.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Resource>
 	  <Resource Include="ProductImage\banhmi.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

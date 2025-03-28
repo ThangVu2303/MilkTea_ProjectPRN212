@@ -93,7 +93,7 @@ namespace ProjectPRN.Business
 
         internal void InsertProduct(Product product)
         {
-             
+
             try
             {
                 if (_context.Products.Any(p => p.ProductId == product.ProductId))
@@ -114,5 +114,31 @@ namespace ProjectPRN.Business
                 throw new Exception($"Không thể thêm sản phẩm: {ex.Message}", ex);
             }
         }
+    
+
+
+
+    public List<TopProduct> GetTopSellingProducts(int topN = 5)
+        {
+            var topProducts = _context.OrdersDetails
+                .GroupBy(od => od.ProductId)
+                .Select(g => new TopProduct
+                {
+                    ProductName = g.First().Product.ProductName, // Giả sử Product có property ProductName
+                    Quantity = g.Sum(od => od.Quantity),
+                })
+                .OrderByDescending(p => p.Quantity)
+                .Take(topN)
+                .ToList();
+
+            // Thêm số thứ tự (Rank)
+            for (int i = 0; i < topProducts.Count; i++)
+            {
+                topProducts[i].Rank = i + 1;
+            }
+
+            return topProducts;
+        }
+
     }
-    }
+}

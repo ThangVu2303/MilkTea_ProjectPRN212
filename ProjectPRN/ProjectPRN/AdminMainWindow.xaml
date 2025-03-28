@@ -108,6 +108,10 @@
                         Content="Products" 
                         Width="120" 
                         Click="BtnProduct_Click"/>
+                <Button x:Name="btnMange" 
+         Content="Managestor" 
+         Width="120" 
+         Click="btnMange_Click"/>
             </StackPanel>
         </Border>
 

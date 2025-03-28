@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:ProjectPRN"
              StartupUri="LoginWindow.xaml">
     <Application.Resources>
-         
+        <!--AdminMainWindow-->
     </Application.Resources>
 </Application>

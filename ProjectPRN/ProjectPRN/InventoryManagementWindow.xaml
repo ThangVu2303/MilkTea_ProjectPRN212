@@ -1,0 +1,174 @@
+﻿<Page x:Class="ProjectPRN.InventoryManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="Inventory Management" 
+        Height="600" 
+        Width="1000"
+        Background="#ECEFF1">
+    <Grid>
+        <Border Background="White" Margin="20" CornerRadius="8" BorderBrush="#E0E0E0" BorderThickness="1">
+            <TabControl Margin="10" Background="Transparent" BorderThickness="0">
+                <!-- Tab 1: Raw Materials -->
+                <TabItem Header="Material">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <!-- Filter and Add -->
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <Button x:Name="btnAddMaterial" 
+                                    Content="Add Material" 
+                                    Click="btnAddMaterial_Click" 
+                                    Background="#1A237E" 
+                                    Foreground="White" 
+                                    Padding="10,5" 
+                                    Margin="0,0,10,0" 
+                                    Cursor="Hand"/>
+                        </StackPanel>
+                        <!-- Raw Materials List -->
+                        <ListView x:Name="lvRawMaterials" 
+                                  Grid.Row="1" 
+                                  BorderBrush="#E0E0E0" 
+                                  BorderThickness="1" 
+                                  ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="ID" 
+                                                    DisplayMemberBinding="{Binding MaterialId}" 
+                                                    Width="50"/>
+                                    <GridViewColumn Header="MaterialName" 
+                                                    DisplayMemberBinding="{Binding MaterialName}" 
+                                                    Width="150"/>
+                                    <GridViewColumn Header="Unit" 
+                                                    DisplayMemberBinding="{Binding Unit}" 
+                                                    Width="100"/>
+                                    <GridViewColumn Header="CostPerUnit" 
+                                                    DisplayMemberBinding="{Binding CostPerUnit, StringFormat=C}" 
+                                                    Width="100"/>
+                                    <GridViewColumn Header="Quantity" 
+                                                    DisplayMemberBinding="{Binding Quantity}" 
+                                                    Width="100"/>
+                                    <GridViewColumn Header="Action">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Button Content="Edit" 
+                                                            Click="EditMaterial_Click" 
+                                                            Tag="{Binding MaterialId}"
+                                                            Background="#FFA500" 
+                                                            Foreground="White" 
+                                                            Padding="5" 
+                                                            Margin="0,0,5,0"
+                                                            Cursor="Hand"/>
+                                                    <Button Content="Disposed" 
+                                                            Click="DisposeMaterial_Click" 
+                                                            Tag="{Binding MaterialId}"
+                                                            Background="#D32F2F" 
+                                                            Foreground="White" 
+                                                            Padding="5" 
+                                                            Cursor="Hand"/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </TabItem>
+
+                <!-- Tab 2: Recipes -->
+                <TabItem Header="Recpies">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <!-- Add Recipe -->
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <ComboBox x:Name="cbProducts" 
+                                      Width="200" 
+                                      Margin="0,0,10,0" 
+                                      DisplayMemberPath="ProductName" 
+                                      VerticalAlignment="Center"/>
+                            <Button x:Name="btnAddRecipe" 
+                                    Content="Add Recipe" 
+                                    Click="btnAddRecipe_Click" 
+                                    Background="#1A237E" 
+                                    Foreground="White" 
+                                    Padding="10,5" 
+                                    Cursor="Hand"/>
+                        </StackPanel>
+                        <!-- Recipes List -->
+                        <ListView x:Name="lvRecipes" 
+                                  Grid.Row="1" 
+                                  BorderBrush="#E0E0E0" 
+                                  BorderThickness="1" 
+                                  ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="ID " 
+                                                    DisplayMemberBinding="{Binding RecipeId}" 
+                                                    Width="80"/>
+                                    <GridViewColumn Header="Product" 
+                                                    DisplayMemberBinding="{Binding Product.ProductName}" 
+                                                    Width="200"/>
+                                    <GridViewColumn Header="Material" 
+                                                    DisplayMemberBinding="{Binding Material.MaterialName}" 
+                                                    Width="200"/>
+                                    <GridViewColumn Header="Quantity Required" 
+                                                    DisplayMemberBinding="{Binding QuantityRequired}" 
+                                                    Width="100"/>
+                                    <GridViewColumn Header="Action">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Button Content="Chỉnh sửa" 
+                                                        Click="EditRecipe_Click" 
+                                                        Tag="{Binding RecipeId}"
+                                                        Background="#FFA500" 
+                                                        Foreground="White" 
+                                                        Padding="5" 
+                                                        Cursor="Hand"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </TabItem>
+
+                <!-- Tab 3: Disposed Materials -->
+                <TabItem Header="Disposed Materials">
+                    <ListView x:Name="lvDisposedMaterials" 
+                              Margin="10" 
+                              BorderBrush="#E0E0E0" 
+                              BorderThickness="1" 
+                              ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="ID" 
+                                                DisplayMemberBinding="{Binding DisposedId}" 
+                                                Width="80"/>
+                                <GridViewColumn Header="MaterialName" 
+                                                DisplayMemberBinding="{Binding Material.MaterialName}" 
+                                                Width="200"/>
+                                <GridViewColumn Header="Quantity" 
+                                                DisplayMemberBinding="{Binding Quantity}" 
+                                                Width="100"/>
+                                <GridViewColumn Header="Date" 
+                                                DisplayMemberBinding="{Binding DateDisposed, StringFormat=d}" 
+                                                Width="120"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </TabItem>
+            </TabControl>
+        </Border>
+    </Grid>
+</Page>

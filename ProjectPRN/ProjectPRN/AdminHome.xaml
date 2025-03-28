@@ -7,13 +7,17 @@
         mc:Ignorable="d"
         Title="Admin Home" 
         Loaded="Page_Loaded">
-    <Grid Margin="20" Background="#F5F5F5">
-        
+    <Grid Margin="20">
+        <Grid.Background>
+            <ImageBrush ImageSource="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg"/>
+        </Grid.Background>
+
+        <!-- Thêm nền nhẹ -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-         
+            <!-- Tiêu đề -->
             <RowDefinition Height="*"/>
-          
+            <!-- Thống kê -->
         </Grid.RowDefinitions>
 
         <!-- Title -->
@@ -41,6 +45,23 @@
                     <Label Content="Total Employees" FontSize="18" HorizontalAlignment="Center" Foreground="#555555"/>
                     <Label x:Name="labelTotalEmployees" Content="0" FontSize="36" FontWeight="Bold" 
                            HorizontalAlignment="Center" Foreground="#0078D4"/>
+                </StackPanel>
+            </Border>
+
+            <Border Background="White" BorderBrush="#CCCCCC" BorderThickness="1" Margin="20" Width="350" Height="300" CornerRadius="8" Padding="10">
+                <StackPanel>
+                    <Label Content="Top 5 Best Selling Products" FontSize="18" HorizontalAlignment="Center" Foreground="#555555"/>
+                    <ListView x:Name="topProductsList" BorderThickness="0" Height="240">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Margin="5">
+                                    <TextBlock Text="{Binding Rank}" Width="30" Foreground="#0078D4"/>
+                                    <TextBlock Text="{Binding ProductName}" Width="200"/>
+                                    <TextBlock Text="{Binding Quantity}" Width="50" Foreground="#0078D4"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
                 </StackPanel>
             </Border>
         </StackPanel>
