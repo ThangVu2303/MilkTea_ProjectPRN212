@@ -42,8 +42,12 @@ namespace ProjectPRN
                 labelTotalProducts.Content = totalProducts.ToString();
 
                 // Total Employees (Staff)
-                int totalEmployees = _staffBusiness.GetStaffIds().Count - 1; // Subtract 1 for "--- All ---" placeholder
+                int totalEmployees = _staffBusiness.GetStaffIds().Count - 1;
                 labelTotalEmployees.Content = totalEmployees.ToString();
+
+                // Top 5 Best Selling Products
+                var topProducts = _productBusiness.GetTopSellingProducts();
+                topProductsList.ItemsSource = topProducts;
             }
             catch (Exception ex)
             {

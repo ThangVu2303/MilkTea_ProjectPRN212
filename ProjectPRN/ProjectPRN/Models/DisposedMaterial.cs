@@ -11,7 +11,7 @@ public partial class DisposedMaterial
 
     public double Quantity { get; set; }
 
-    public DateOnly DateDisposed { get; set; }
+    public DateTime DateDisposed { get; set; }
 
     public virtual RawMaterial Material { get; set; } = null!;
 }

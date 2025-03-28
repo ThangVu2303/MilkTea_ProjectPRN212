@@ -126,11 +126,11 @@ namespace ProjectPRN
 
         public void LoadCustomer()
         {
-            var cds = MilkTeaContext.Ins.Customers.Include(x=>x.Account).ToList();
+            var cds = MilkTeaContext.Ins.Customers.Include(x => x.Account).ToList();
             lvCustomers.ItemsSource = cds;
         }
 
-        
+
         public void LoadProduct()
         {
             var pds = MilkTeaContext.Ins.Products.Include(x => x.Category).ToList();
@@ -293,11 +293,12 @@ namespace ProjectPRN
         private void lvCustomers_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var cus = lvCustomers.SelectedItem as Customer;
-            if(cus != null)
+            if (cus != null)
             {
                 txtCustomerId.Text = cus.CustomerId.ToString();
                 txtFullName.Text = cus.Account.FullName;
                 txtPhone.Text = cus.Account.Phone.ToString();
+                txtEmail.Text = cus.Account.Email; 
                 txtPoints.Text = cus.Point.GetValueOrDefault().ToString();
             }
         }
@@ -324,6 +325,7 @@ namespace ProjectPRN
                 {
                     customer.Account.FullName = txtFullName.Text;
                     customer.Account.Phone = txtPhone.Text;
+                    customer.Account.Email = txtEmail.Text;
                     customer.Point = int.TryParse(txtPoints.Text, out int points) ? points : customer.Point;
                     MilkTeaContext.Ins.Customers.Update(customer);
                     MilkTeaContext.Ins.SaveChanges();
@@ -345,6 +347,7 @@ namespace ProjectPRN
         {
             txtCustomerId.Text = string.Empty;
             txtFullName.Text = string.Empty;
+            txtEmail.Text = string.Empty;
             txtPhone.Text = string.Empty;
             txtPoints.Text = string.Empty;
         }

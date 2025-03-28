@@ -28,40 +28,40 @@ namespace ProjectPRN
         }
         private void ResetPassword_Click(object sender, RoutedEventArgs e)
         {
-            //string email = txtEmail.Text.Trim();
+            string email = txtEmail.Text.Trim();
 
-            //if (string.IsNullOrEmpty(email))
-            //{
-            //    MessageBox.Show("Vui lòng nhập email của bạn!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
-            //    return;
-            //}
+            if (string.IsNullOrEmpty(email))
+            {
+                MessageBox.Show("Vui lòng nhập email của bạn!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
 
-            //var acc = MilkTeaContext.Ins.Accounts.FirstOrDefault(x => x.Email == email);
-            //if (acc != null)
-            //{
-            //    // Tạo mật khẩu mới ngẫu nhiên
-            //    string newPassword = GenerateNewPassword();
-            //    acc.Password = newPassword;
-            //    MilkTeaContext.Ins.SaveChanges();
+            var acc = MilkTeaContext.Ins.Accounts.FirstOrDefault(x => x.Email == email);
+            if (acc != null)
+            {
+                // Tạo mật khẩu mới ngẫu nhiên
+                string newPassword = GenerateNewPassword();
+                acc.Password = newPassword;
+                MilkTeaContext.Ins.SaveChanges();
 
-            //    // Gửi email chứa mật khẩu mới
-            //    bool emailSent = SendEmail(email, newPassword);
-            //    if (emailSent)
-            //    {
-            //        MessageBox.Show($"Mật khẩu mới đã được gửi đến email: {email}",
-            //                        "Thành công", MessageBoxButton.OK, MessageBoxImage.Information);
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Gửi email thất bại. Vui lòng thử lại!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-            //    }
+                // Gửi email chứa mật khẩu mới
+                bool emailSent = SendEmail(email, newPassword);
+                if (emailSent)
+                {
+                    MessageBox.Show($"Mật khẩu mới đã được gửi đến email: {email}",
+                                    "Thành công", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Gửi email thất bại. Vui lòng thử lại!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
 
-            //    this.Close();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Email không tồn tại trong hệ thống!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-            //}
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Email không tồn tại trong hệ thống!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private string GenerateNewPassword()
