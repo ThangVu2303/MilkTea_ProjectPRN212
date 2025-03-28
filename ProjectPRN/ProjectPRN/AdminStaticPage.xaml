@@ -5,166 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectPRN"
         mc:Ignorable="d"
-        Title="Admin Statistics" 
-        Loaded="Page_Loaded">
-
-    <Page.Resources>
-        <!-- TextBox Style -->
-        <Style TargetType="TextBox">
-            <Setter Property="Padding" Value="5"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="BorderBrush" Value="#CCCCCC"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="TextBox">
-                        <Border Background="{TemplateBinding Background}"
-                                BorderBrush="{TemplateBinding BorderBrush}"
-                                BorderThickness="{TemplateBinding BorderThickness}"
-                                CornerRadius="3">
-                            <ScrollViewer x:Name="PART_ContentHost"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <!-- DatePicker Style -->
-        <Style TargetType="DatePicker">
-            <Setter Property="Padding" Value="5"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="BorderBrush" Value="#CCCCCC"/>
-            <Setter Property="Background" Value="White"/>
-        </Style>
-
-        <!-- Button Style -->
-        <Style TargetType="Button">
-            <Setter Property="Background" Value="#4A90E2"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="Padding" Value="10,5"/>
-            <Setter Property="Margin" Value="5,0,5,0"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                                CornerRadius="5"
-                                BorderThickness="{TemplateBinding BorderThickness}">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#357ABD"/>
-                            </Trigger>
-                            <Trigger Property="IsPressed" Value="True">
-                                <Setter Property="Background" Value="#2A6099"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <!-- DataGrid Style -->
-        <Style TargetType="DataGrid">
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="BorderBrush" Value="#E0E0E0"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="RowBackground" Value="#FFFFFF"/>
-            <Setter Property="AlternatingRowBackground" Value="#F9F9F9"/>
-            <Setter Property="HeadersVisibility" Value="Column"/>
-        </Style>
-
-        <!-- GroupBox Style -->
-        <Style TargetType="GroupBox">
-            <Setter Property="BorderBrush" Value="#E0E0E0"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="Padding" Value="10"/>
-            <Setter Property="FontSize" Value="14"/>
-        </Style>
-    </Page.Resources>
-    <Page.Background>
-        <ImageBrush ImageSource="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg"/>
-    </Page.Background>
-
-    <Grid Margin="20">
+        Title="Admin Statistics" Loaded="Page_Loaded">
+    <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <!-- Filters -->
-        <Border Grid.Row="0" 
-                Background="White"
-                CornerRadius="8"
-                BorderBrush="#E0E0E0"
-                BorderThickness="1"
-                Padding="10"
-                Margin="0,0,0,20">
-            <StackPanel Orientation="Horizontal">
-                <Label Content="From:" FontSize="14" Foreground="#333333" VerticalAlignment="Center"/>
-                <DatePicker x:Name="dpFrom" Width="150" Margin="5,0,10,0" ToolTip="Select start date"/>
-                <Label Content="To:" FontSize="14" Foreground="#333333" VerticalAlignment="Center"/>
-                <DatePicker x:Name="dpTo" Width="150" Margin="5,0,10,0" ToolTip="Select end date"/>
-                <Button x:Name="btnSearch" Content="Search" Width="100" Click="BtnSearch_Click"/>
-            </StackPanel>
-        </Border>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <Label Content="Từ ngày:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <DatePicker x:Name="dpFrom" Width="120" Margin="0,0,10,0" ToolTip="Chọn ngày bắt đầu"/>
+            <Label Content="Đến ngày:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <DatePicker x:Name="dpTo" Width="120" Margin="0,0,10,0" ToolTip="Chọn ngày kết thúc"/>
+            <Button x:Name="btnSearch" Content="Tìm kiếm" Width="100" Margin="10,0,0,0" Click="BtnSearch_Click"/>
+        </StackPanel>
 
         <!-- Orders DataGrid -->
-        <Border Grid.Row="1" 
-                Background="White"
-                CornerRadius="8"
-                BorderBrush="#E0E0E0"
-                BorderThickness="1"
-                Margin="0,0,0,20">
-            <DataGrid x:Name="dgvOrder" 
-                      AutoGenerateColumns="False" 
-                      IsReadOnly="True" 
-                      SelectionChanged="DgvOrder_SelectionChanged" 
-                      Margin="10">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}" Width="Auto"/>
-                    <DataGridTextColumn Header="Employee ID" Binding="{Binding StaffId}" Width="Auto"/>
-                    <DataGridTextColumn Header="Total Payment" Binding="{Binding Total, StringFormat=C}" Width="*"/>
-                    <DataGridTextColumn Header="Date" Binding="{Binding DateCreate, StringFormat=d}" Width="*"/>
-                </DataGrid.Columns>
-            </DataGrid>
-        </Border>
+        <DataGrid x:Name="dgvOrder" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="DgvOrder_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}"/>
+                <DataGridTextColumn Header="Employee ID" Binding="{Binding StaffId}"/>
+                <DataGridTextColumn Header="Total Payment" Binding="{Binding Total, StringFormat=C}"/>
+                <DataGridTextColumn Header="Bill's Date" Binding="{Binding DateCreate}"/>
+            </DataGrid.Columns>
+        </DataGrid>
 
         <!-- Order Details DataGrid -->
-        <Border Grid.Row="2" 
-                Background="White"
-                CornerRadius="8"
-                BorderBrush="#E0E0E0"
-                BorderThickness="1"
-                Margin="0,0,0,20">
-            <DataGrid x:Name="dgvOrderDetails" 
-                      AutoGenerateColumns="False" 
-                      IsReadOnly="True" 
-                      Height="150" 
-                      Margin="10">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Product Name" Binding="{Binding ProductName}" Width="*"/>
-                    <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="Auto"/>
-                    <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat=C}" Width="*"/>
-                </DataGrid.Columns>
-            </DataGrid>
-        </Border>
+        <DataGrid x:Name="dgvOrderDetails" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" Margin="0,10,0,0" Height="150">
+            <DataGrid.Background>
+                <ImageBrush/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product Name" Binding="{Binding ProductName}" Width="*"/>
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat=C}"/>
+            </DataGrid.Columns>
+        </DataGrid>
 
-        <!-- Employee Info and Total Revenue -->
-        <Grid Grid.Row="3">
+        <!-- Employee and Manager Info -->
+        <Grid Grid.Row="3" Margin="0,10,0,0" Background="#FF4EA693">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
             <!-- Employee Info -->
-            <GroupBox Grid.Column="0" Header="Employee Information" Margin="0,0,10,0">
+            <GroupBox Grid.Column="0" Header="Employee Info" Margin="0,0,5,0">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/>
@@ -179,38 +69,26 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <Label Grid.Row="0" Grid.Column="0" Content="ID:" Foreground="#333333"/>
-                    <TextBox x:Name="txtEId" Grid.Row="0" Grid.Column="1" IsReadOnly="True" Margin="5,2"/>
-                    <Label Grid.Row="1" Grid.Column="0" Content="Name:" Foreground="#333333"/>
-                    <TextBox x:Name="txtEName" Grid.Row="1" Grid.Column="1" IsReadOnly="True" Margin="5,2"/>
-                    <Label Grid.Row="2" Grid.Column="0" Content="DoB:" Foreground="#333333"/>
-                    <TextBox x:Name="txtEDob" Grid.Row="2" Grid.Column="1" IsReadOnly="True" Margin="5,2"/>
-                    <Label Grid.Row="3" Grid.Column="0" Content="Email:" Foreground="#333333"/>
-                    <TextBox x:Name="txtEEmail" Grid.Row="3" Grid.Column="1" IsReadOnly="True" Margin="5,2"/>
-                    <Label Grid.Row="4" Grid.Column="0" Content="Phone:" Foreground="#333333"/>
-                    <TextBox x:Name="txtEPhone" Grid.Row="4" Grid.Column="1" IsReadOnly="True" Margin="5,2"/>
-                    <Label Grid.Row="5" Grid.Column="0" Content="Gender:" Foreground="#333333"/>
-                    <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal" Margin="5,2">
+                    <Label Grid.Row="0" Grid.Column="0" Content="ID:"/>
+                    <TextBox x:Name="txtEId" Grid.Row="0" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="1" Grid.Column="0" Content="Name:"/>
+                    <TextBox x:Name="txtEName" Grid.Row="1" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="2" Grid.Column="0" Content="DoB:"/>
+                    <TextBox x:Name="txtEDob" Grid.Row="2" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="3" Grid.Column="0" Content="Email:"/>
+                    <TextBox x:Name="txtEEmail" Grid.Row="3" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="4" Grid.Column="0" Content="Phone:"/>
+                    <TextBox x:Name="txtEPhone" Grid.Row="4" Grid.Column="1" IsReadOnly="True"/>
+                    <Label Grid.Row="5" Grid.Column="0" Content="Gender:"/>
+                    <StackPanel Grid.Row="5" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="51,0,0,0">
                         <RadioButton x:Name="rdbMale1" Content="Male" IsEnabled="False" Margin="0,0,10,0"/>
                         <RadioButton x:Name="rdbFemale1" Content="Female" IsEnabled="False"/>
                     </StackPanel>
                 </Grid>
             </GroupBox>
-
-            <!-- Total Revenue -->
-            <Border Grid.Column="1" 
-                    Background="White"
-                    CornerRadius="8"
-                    BorderBrush="#E0E0E0"
-                    BorderThickness="1"
-                    Padding="10">
-                <Label x:Name="lblTotal" 
-                       Content="Total Revenue: 0 VND" 
-                       FontSize="16" 
-                       FontWeight="SemiBold" 
-                       Foreground="#333333" 
-                       VerticalAlignment="Center"/>
-            </Border>
         </Grid>
+
+        <!-- Total Revenue -->
+        <Label x:Name="lblTotal" Grid.Row="4" Content="Total Revenue: 0 VND" FontSize="16" Margin="0,10,0,0" Foreground="#FF050000"/>
     </Grid>
 </Page>

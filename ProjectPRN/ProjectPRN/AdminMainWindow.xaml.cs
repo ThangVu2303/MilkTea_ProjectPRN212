@@ -28,9 +28,9 @@ namespace ProjectPRN
         public AdminMainWindow()
         {
             InitializeComponent();
-            _account = null; // Hoặc xử lý trường hợp này phù hợp
+            _account = null;
 
-            // Khởi tạo timer trong hàm tạo mặc định
+            
             _timer = new DispatcherTimer
             {
                 Interval = TimeSpan.FromSeconds(1)
@@ -39,57 +39,92 @@ namespace ProjectPRN
             _timer.Start();
         }
 
-        // Hàm tạo có tham số cho việc khởi tạo bằng code
-        public AdminMainWindow(Account account) : this() // Gọi hàm tạo mặc định
+        // Hàm tạo có tham số
+        public AdminMainWindow(Account account) : this() 
         {
+            if (account == null)
+            {
+                throw new ArgumentNullException(nameof(account), "Account cannot be null.");
+            }
+
             _account = account;
             txtWelcome.Content = $"Chào mừng {_account.Username}!";
             WindowState = WindowState.Maximized;
-            // Timer đã được khởi tạo trong hàm tạo mặc định, không cần làm lại
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            GetHome();
+            LoadHomePage();
         }
 
         private void Timer_Tick(object sender, EventArgs e)
         {
-            DateTime dt = DateTime.Now;
-            labelTime.Content = dt.ToString("HH:mm:ss");
+            labelTime.Content = DateTime.Now.ToString("HH:mm:ss");
         }
 
-        private void GetHome()
+        private void LoadHomePage()
         {
-            panelDetail.Navigate(new AdminHome());
+            try
+            {
+                panelDetail.Navigate(new AdminHome());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi tải trang chủ: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void BtnHome_Click(object sender, RoutedEventArgs e)
         {
-            GetHome();
+            LoadHomePage();
         }
 
         private void BtnEmployee_Click(object sender, RoutedEventArgs e)
         {
-            panelDetail.Navigate(new AdminEmployee());
+            try
+            {
+                panelDetail.Navigate(new AdminEmployee());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi tải trang nhân viên: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void BtnProduct_Click(object sender, RoutedEventArgs e)
         {
-            panelDetail.Navigate(new AdminProductPage());
+            try
+            {
+                panelDetail.Navigate(new AdminProductPage());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi tải trang sản phẩm: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void BtnStatic_Click(object sender, RoutedEventArgs e)
         {
-            panelDetail.Navigate(new AdminStaticPage());
+            try
+            {
+                panelDetail.Navigate(new AdminStaticPage());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi tải trang thống kê: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void BtnLogout_Click(object sender, RoutedEventArgs e)
         {
-            Hide();
-            var loginWindow = new LoginWindow();
-            loginWindow.ShowDialog();
-            Close();
+            
+            MessageBoxResult result = MessageBox.Show("Bạn có chắc muốn đăng xuất?", "Xác nhận", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (result == MessageBoxResult.Yes)
+            {
+                var loginWindow = new LoginWindow();
+                loginWindow.Show();
+                Close(); 
+            }
         }
     }
 }

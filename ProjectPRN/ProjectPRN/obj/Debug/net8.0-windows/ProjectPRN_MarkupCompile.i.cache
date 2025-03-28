@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Ki 5_PRN_Trenlop\Project\ProjectPRN 123\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\
+D:\Github1\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\
 ProjectPRN
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\Ki 5_PRN_Trenlop\Project\ProjectPRN 123\ProjectPRN\ProjectPRN\App.xaml
+D:\Github1\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\App.xaml
 11816694746
 
 36-1207954876
 233-1203290601
 AdminEmployee.xaml;AdminHome.xaml;AdminMainWindow.xaml;AdminProductPage.xaml;AdminStaticPage.xaml;CreateCustomerWindow.xaml;CustomerWindow.xaml;LoginWindow.xaml;MainWindow.xaml;OrderViewWindow.xaml;StaffWindow.xaml;
 
-False
+True
 

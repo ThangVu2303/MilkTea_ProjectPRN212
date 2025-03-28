@@ -37,8 +37,8 @@ namespace ProjectPRN
                 txtUserId.Text = accounts.First().AccountId.ToString();
                 txtUsername.Text = accounts.First().Username;
                 txtPassword.Text = accounts.First().Password;
-                txtFullName.Text = accounts.First().FullName; // Thêm FullName
-                txtPhone.Text = accounts.First().Phone;       // Thêm Phone
+                txtFullName.Text = accounts.First().FullName;
+                txtPhone.Text = accounts.First().Phone;      
                 cboRoleId.SelectedValue = accounts.First().RoleId;
             }
             else
@@ -50,8 +50,8 @@ namespace ProjectPRN
         private void LoadRoles()
         {
             cboRoleId.ItemsSource = _roleBusiness.GetRoles();
-            cboRoleId.DisplayMemberPath = "RoleName"; // Hiển thị tên vai trò
-            cboRoleId.SelectedValuePath = "RoleId";   // Giá trị được chọn là RoleId
+            cboRoleId.DisplayMemberPath = "RoleName"; 
+            cboRoleId.SelectedValuePath = "RoleId";  
         }
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
@@ -70,7 +70,7 @@ namespace ProjectPRN
                     };
 
                     _accountBusiness.InsertAccount(account);
-                    txtUserId.Text = account.AccountId.ToString(); // Cập nhật AccountId sau khi chèn
+                    txtUserId.Text = account.AccountId.ToString(); 
                     LoadAccount();
                     MessageBox.Show("Thêm tài khoản thành công!");
                 }
@@ -137,8 +137,8 @@ namespace ProjectPRN
             txtUserId.Text = "";
             txtUsername.Text = "";
             txtPassword.Text = "";
-            txtFullName.Text = ""; // Thêm FullName
-            txtPhone.Text = "";    // Thêm Phone
+            txtFullName.Text = ""; 
+            txtPhone.Text = "";   
             cboRoleId.SelectedIndex = -1;
         }
 

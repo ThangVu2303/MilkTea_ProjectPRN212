@@ -13,13 +13,7 @@
     <Compile Update="AdminHome.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="AdminMainWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="AdminProductPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="AdminStaticPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="CustomerWindow.xaml.cs">

@@ -7,17 +7,13 @@
         mc:Ignorable="d"
         Title="Admin Home" 
         Loaded="Page_Loaded">
-    <Grid Margin="20">
-        <Grid.Background>
-            <ImageBrush ImageSource="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg"/>
-        </Grid.Background>
-
-        <!-- Thêm nền nhẹ -->
+    <Grid Margin="20" Background="#F5F5F5">
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Tiêu đề -->
+         
             <RowDefinition Height="*"/>
-            <!-- Thống kê -->
+          
         </Grid.RowDefinitions>
 
         <!-- Title -->

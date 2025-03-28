@@ -27,7 +27,6 @@
              </Menu>
         </DockPanel>
         <Grid Grid.Row="1">
-           
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition/>
@@ -47,9 +46,6 @@
 
             <!-- Chi tiết OrderDetail -->
             <ListView x:Name="lvOrderDetails" Grid.Column="1" Margin="10">
-                <ListView.Background>
-                    <ImageBrush/>
-                </ListView.Background>
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Order ID" DisplayMemberBinding="{Binding OrderId}" />

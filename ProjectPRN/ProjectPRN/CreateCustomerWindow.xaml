@@ -8,9 +8,6 @@
         Title="CreateCustomerWindow" WindowState="Maximized" WindowStyle="None" d:DesignHeight="707.62" d:DesignWidth="1380.367" >
     <Grid>
         <Grid>
-            <Grid.Background>
-                <ImageBrush ImageSource="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg"/>
-            </Grid.Background>
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="70"/>
