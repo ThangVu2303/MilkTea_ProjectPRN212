@@ -57,7 +57,7 @@ namespace ProjectPRN
 
         private void btnAddMaterial_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = CreateDialog("Thêm Nguyên Liệu", 300, 250);
+            var dialog = CreateDialog("Thêm Nguyên Liệu", 300, 300);
             var stackPanel = new StackPanel { Margin = new Thickness(10) };
             var txtName = new TextBox { Margin = new Thickness(0, 0, 0, 10) };
             var txtUnit = new TextBox { Margin = new Thickness(0, 0, 0, 10) };
@@ -130,7 +130,7 @@ namespace ProjectPRN
                 return;
             }
 
-            var dialog = CreateDialog("Chỉnh sửa Nguyên Liệu", 300, 250);
+            var dialog = CreateDialog("Chỉnh sửa Nguyên Liệu", 300, 300);
             var stackPanel = new StackPanel { Margin = new Thickness(10) };
             var txtName = new TextBox { Text = material.MaterialName, Margin = new Thickness(0, 0, 0, 10) };
             var txtUnit = new TextBox { Text = material.Unit, Margin = new Thickness(0, 0, 0, 10) };
@@ -191,7 +191,7 @@ namespace ProjectPRN
                 return;
             }
 
-            var dialog = CreateDialog("Thêm Công Thức", 300, 200);
+            var dialog = CreateDialog("Thêm Công Thức", 300, 300);
             var stackPanel = new StackPanel { Margin = new Thickness(10) };
             var cbMaterials = new ComboBox
             {

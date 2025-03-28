@@ -118,7 +118,7 @@ namespace ProjectPRN.Business
                     existingStaff.HireDate = staff.HireDate;
                     existingStaff.Gender = staff.Gender;
                     existingStaff.DateOfBirth = staff.DateOfBirth;
-                    existingStaff.Email = staff.Email;
+                    existingStaff.Account.Email = staff.Account.Email;
                     existingStaff.AccountId = staff.AccountId;
                     _context.SaveChanges();
                 }

@@ -22,7 +22,7 @@
                     <DockPanel Height="60" VerticalAlignment="Center">
                         <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Margin="20,0">
                             <Image Source="/LogoImage/logo.png" Width="35" Height="35"/>
-                            <Label Content="Milk Tea POS" Foreground="White" FontSize="20" 
+                            <Label Content="Milk Tea " Foreground="White" FontSize="20" VerticalAlignment="Center"
                                    Margin="10,0,0,0"/>
                         </StackPanel>
 

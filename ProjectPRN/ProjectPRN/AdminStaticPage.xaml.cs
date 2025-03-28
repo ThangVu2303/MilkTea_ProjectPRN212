@@ -104,7 +104,7 @@ namespace ProjectPRN
                         txtEId.Text = staff.StaffId.ToString();
                         txtEName.Text = staff.Account?.FullName ?? "N/A";
                         txtEDob.Text = staff.DateOfBirth.ToString("yyyy-MM-dd");
-                        txtEEmail.Text = staff.Email ?? "N/A";
+                        txtEEmail.Text = staff.Account.Email ?? "N/A";
                         txtEPhone.Text = staff.Account?.Phone ?? "N/A";
                         rdbMale1.IsChecked = staff.Gender == "Male";
                         rdbFemale1.IsChecked = staff.Gender == "Female";

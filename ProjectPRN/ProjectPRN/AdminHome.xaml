@@ -47,23 +47,6 @@
                            HorizontalAlignment="Center" Foreground="#0078D4"/>
                 </StackPanel>
             </Border>
-
-            <Border Background="White" BorderBrush="#CCCCCC" BorderThickness="1" Margin="20" Width="350" Height="300" CornerRadius="8" Padding="10">
-                <StackPanel>
-                    <Label Content="Top 5 Best Selling Products" FontSize="18" HorizontalAlignment="Center" Foreground="#555555"/>
-                    <ListView x:Name="topProductsList" BorderThickness="0" Height="240">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <StackPanel Orientation="Horizontal" Margin="5">
-                                    <TextBlock Text="{Binding Rank}" Width="30" Foreground="#0078D4"/>
-                                    <TextBlock Text="{Binding ProductName}" Width="200"/>
-                                    <TextBlock Text="{Binding Quantity}" Width="50" Foreground="#0078D4"/>
-                                </StackPanel>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </StackPanel>
-            </Border>
         </StackPanel>
     </Grid>
 </Page>

@@ -82,7 +82,7 @@ namespace ProjectPRN.Business
                 {
                     existingAdmin.Gender = admin.Gender;
                     existingAdmin.Dob = admin.Dob;
-                    existingAdmin.Email = admin.Email;
+                    existingAdmin.Account.Email = admin.Account.Email;
                     existingAdmin.AccountId = admin.AccountId;
                     _context.SaveChanges();
                 }
