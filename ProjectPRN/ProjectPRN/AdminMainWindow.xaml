@@ -5,9 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectPRN"
         mc:Ignorable="d"
-              Title="Admin Main Menu" Height="600" Width="800" Loaded="Window_Loaded">
-    <Grid>
+        Title="Admin Main Menu" 
+        Height="600" 
+        Width="800" 
+        Loaded="Window_Loaded" 
+        WindowState="Maximized"
+        Background="#F5F7FA">
+    <Window.Resources>
+        <!-- Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#4A90E2"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5,0,5,0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="5"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#357ABD"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#2A6099"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
+        <!-- Label Style -->
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -15,22 +57,76 @@
         </Grid.RowDefinitions>
 
         <!-- Header -->
-        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
-            <Label x:Name="txtWelcome" Content="Welcome!" FontSize="16"/>
-            <Label x:Name="labelTime" Content="00:00:00" FontSize="16" Margin="20,0,0,0"/>
-            <Button x:Name="btnLogout" Content="Logout" Width="80" Margin="20,0,0,0" Click="BtnLogout_Click" HorizontalAlignment="Right"/>
-        </StackPanel>
+        <Border Grid.Row="0" 
+                Background="White" 
+                BorderBrush="#E0E0E0" 
+                BorderThickness="0,0,0,1"
+                Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal" Margin="20,15">
+                <Label x:Name="txtWelcome" 
+                       Content="Welcome!" 
+                       FontSize="18" 
+                       FontWeight="SemiBold"
+                       Foreground="#333333"/>
+                <Label x:Name="labelTime" 
+                       Content="00:00:00" 
+                       FontSize="16" 
+                       Margin="30,0,0,0"
+                       Foreground="#666666"/>
+                <Button x:Name="btnLogout" 
+                        Content="Logout" 
+                        Width="100" 
+                        Margin="0,0,20,0" 
+                        HorizontalAlignment="Right"
+                        Click="BtnLogout_Click"
+                        Background="#E74C3C"/>
+            </StackPanel>
+        </Border>
 
         <!-- Navigation Buttons -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
-            <Button x:Name="btnHome" Content="Home" Width="100" Margin="0,0,10,0" Click="BtnHome_Click"/>
-            <Button x:Name="btnEmployee" Content="Employees" Width="100" Margin="0,0,10,0" Click="BtnEmployee_Click"/>
-            <Button x:Name="btnStatic" Content="Statistics" Width="100" Margin="0,0,10,0" Click="BtnStatic_Click"/>
-            <Button x:Name="btnProduct" Content="Products" Width="100" Margin="0,0,10,0" Click="BtnProduct_Click"/>
-        </StackPanel>
+        <Border Grid.Row="1" 
+                Background="White"
+                BorderBrush="#E0E0E0"
+                BorderThickness="0,0,0,1"
+                Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal" 
+                       Margin="20,10"
+                       HorizontalAlignment="Left">
+                <Button x:Name="btnHome" 
+                        Content="Home" 
+                        Width="120" 
+                        Click="BtnHome_Click"/>
+                <Button x:Name="btnEmployee" 
+                        Content="Employees" 
+                        Width="120" 
+                        Click="BtnEmployee_Click"/>
+                <Button x:Name="btnStatic" 
+                        Content="Statistics" 
+                        Width="120" 
+                        Click="BtnStatic_Click"/>
+                <Button x:Name="btnProduct" 
+                        Content="Products" 
+                        Width="120" 
+                        Click="BtnProduct_Click"/>
+                <Button x:Name="btnMange" 
+         Content="Managestor" 
+         Width="120" 
+         Click="btnMange_Click"/>
+            </StackPanel>
+        </Border>
 
         <!-- Content Area -->
-        <Frame x:Name="panelDetail" Grid.Row="2" NavigationUIVisibility="Hidden" Margin="10,20,10,0" />
+        <Border Grid.Row="2" 
+                Margin="20"
+                CornerRadius="8"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1">
+            <Border.Background>
+                <ImageBrush ImageSource="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg"/>
+            </Border.Background>
+            <Frame x:Name="panelDetail" 
+                   NavigationUIVisibility="Hidden" 
+                   Margin="10"/>
+        </Border>
     </Grid>
 </Window>
-

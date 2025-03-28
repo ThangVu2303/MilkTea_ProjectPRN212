@@ -137,7 +137,7 @@ namespace ProjectPRN
 
             if (ofd.ShowDialog() == true)
             {
-                string targetDirectory = @"D:\Github1\MilkTea_ProjectPRN212\ProjectPRN\ProjectPRN\Product image\";
+                string targetDirectory = @"D:\Ki 5_PRN_Trenlop\Project\ProjectPRN 123\ProjectPRN\ProjectPRN\ProductImage\";
                 string targetPath = Path.Combine(targetDirectory, Path.GetFileName(ofd.FileName));
 
                 try

@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:ProjectPRN"
         mc:Ignorable="d"
         Title="StaffWindow" WindowState="Maximized" WindowStyle="None" d:DesignHeight="707.62" d:DesignWidth="1380.367" >
+    
     <Grid>
 
         <Grid.RowDefinitions>
@@ -125,7 +126,7 @@
 
                 </Grid>
             </TabItem>
-            <TabItem Header="Customer">
+            <TabItem Header="Khách Hàng">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -138,38 +139,39 @@
 
                     <!-- Thanh tìm kiếm khách hàng -->
                     <StackPanel Orientation="Horizontal" Margin="20">
-                        <Label Content="Phone Number:" FontSize="16" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <Label Content="Số Điện Thoại:" FontSize="16" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
                         <TextBox Name="txtSearchPhone" Width="150" Height="25"/>
-                        <Button Content="Search" Padding="5" Margin="10,0,0,0" Click="ButtonSearchCustomer_Click" />
-                        <Button Content="Register New Customer" Padding="5" Margin="10,0,0,0" Click="ButtonCreateCustomer_Click" />
+                        <Button Content="Tìm Kiếm" Padding="5" Margin="10,0,0,0" Click="ButtonSearchCustomer_Click" />
+                        <Button Content="Đăng Ký Khách Hàng Mới" Padding="5" Margin="10,0,0,0" Click="ButtonCreateCustomer_Click" />
                     </StackPanel>
 
                     <!-- Form thêm/sửa khách hàng -->
-                    <Border Grid.Row="1" Grid.Column="1" Margin="20" Padding="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Background="#F5F5F5"  x:Name="CustomerForm">
+                    <Border Grid.Row="1" Grid.Column="1" Margin="20" Padding="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Background="#F5F5F5" x:Name="CustomerForm">
                         <StackPanel>
-                            <Label Content="Customer Information"  FontSize="18" FontWeight="Bold"/>
+                            <Label Content="Thông Tin Khách Hàng" FontSize="18" FontWeight="Bold"/>
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
-                                <Label Content="Customer ID:" Width="100"/>
-                                <TextBox x:Name="txtCustomerId" Width="300" Height="25" IsReadOnly="False" />
+                                <Label Content="Mã Khách Hàng:" Width="100"/>
+                                <TextBox x:Name="txtCustomerId" Width="300" Height="25" IsReadOnly="True" />
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
-                                <Label Content="Full Name:" Width="100"/>
+                                <Label Content="Họ Tên:" Width="100"/>
                                 <TextBox x:Name="txtFullName" Width="300" Height="25"/>
                             </StackPanel>
-
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
-                                <Label Content="Phone:" Width="100"/>
+                                <Label Content="Số Điện Thoại:" Width="100"/>
                                 <TextBox x:Name="txtPhone" Width="300" Height="25"/>
                             </StackPanel>
-
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
-                                <Label Content="Points:" Width="100"/>
+                                <Label Content="Email:" Width="100"/>
+                                <TextBox x:Name="txtEmail" Width="300" Height="25"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                <Label Content="Điểm:" Width="100"/>
                                 <TextBox x:Name="txtPoints" Width="300" Height="25"/>
                             </StackPanel>
-
                             <StackPanel Orientation="Horizontal" Margin="10,0,0,10">
-                                <Button Content="Update" Padding="10" Margin="10,0,0,0" Click="ButtonUpdateCustomer_Click" />
-                                <Button Content="Cancel" Padding="10" Margin="10,0,0,0" Click="ButtonCancelCustomer_Click"/>
+                                <Button Content="Cập Nhật" Padding="10" Margin="10,0,0,0" Click="ButtonUpdateCustomer_Click" />
+                                <Button Content="Hủy" Padding="10" Margin="10,0,0,0" Click="ButtonCancelCustomer_Click"/>
                             </StackPanel>
                         </StackPanel>
                     </Border>
@@ -178,11 +180,11 @@
                     <ListView x:Name="lvCustomers" Grid.Row="1" Grid.Column="0" Margin="20" SelectionChanged="lvCustomers_SelectionChanged">
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn Header="Customer ID" DisplayMemberBinding="{Binding CustomerId}" />
-                                <GridViewColumn Header="Full Name" DisplayMemberBinding="{Binding Account.FullName}" />
-                                <GridViewColumn Header="Phone" DisplayMemberBinding="{Binding Account.Phone}" />
-                                <GridViewColumn Header="Points" DisplayMemberBinding="{Binding Point}" />
-
+                                <GridViewColumn Header="Mã Khách Hàng" DisplayMemberBinding="{Binding CustomerId}" Width="100"/>
+                                <GridViewColumn Header="Họ Tên" DisplayMemberBinding="{Binding Account.FullName}" Width="150"/>
+                                <GridViewColumn Header="Số Điện Thoại" DisplayMemberBinding="{Binding Account.Phone}" Width="120"/>
+                                <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Account.Email}" Width="150"/>
+                                <GridViewColumn Header="Điểm" DisplayMemberBinding="{Binding Point}" Width="80"/>
                             </GridView>
                         </ListView.View>
                     </ListView>

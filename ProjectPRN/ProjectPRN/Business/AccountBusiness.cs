@@ -14,7 +14,7 @@ namespace ProjectPRN.Business
 
         public AccountBusiness()
         {
-            _context = MilkTeaContext.Ins; // Using the singleton instance from your context
+            _context = MilkTeaContext.Ins; 
         }
 
         public List<Account> GetAccount(string username, string password)

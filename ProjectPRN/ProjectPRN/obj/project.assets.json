@@ -4314,11 +4314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+      "projectUniqueName": "D:\\Ki 5_PRN_Trenlop\\Project\\ProjectPRN 123\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
       "projectName": "ProjectPRN",
-      "projectPath": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+      "projectPath": "D:\\Ki 5_PRN_Trenlop\\Project\\ProjectPRN 123\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Github1\\MilkTea_ProjectPRN212\\ProjectPRN\\ProjectPRN\\obj\\",
+      "outputPath": "D:\\Ki 5_PRN_Trenlop\\Project\\ProjectPRN 123\\ProjectPRN\\ProjectPRN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
