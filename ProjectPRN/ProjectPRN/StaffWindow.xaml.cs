@@ -12,6 +12,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Media.Media3D;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
@@ -218,31 +219,69 @@ namespace ProjectPRN
                 MessageBox.Show("Tài khoản này không thuộc về nhân viên!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
+            decimal giaGoc = 0;
             var order = new Order
                 {
                     CustomerId = customer.CustomerId,
                     StaffId = staff.StaffId,
                     Point = Point_Customer,
                     DateCreate = DateOnly.FromDateTime(DateTime.Now),
+                    OriginalTotal = giaGoc,
                     Total = originalTotal,
                     OrdersDetails = new List<OrdersDetail>()
                 };
             customer.Point = Math.Max(0, customerPoints - Point_Customer);
             customer.Point += (int)originalTotal / 30000;
             foreach (var cartItem in listCart)
+            {
+                var product = MilkTeaContext.Ins.Products.FirstOrDefault(p => p.ProductId == cartItem.Product.ProductId);
+                
+                if (product != null && product.Quantity >= cartItem.Quantity)
                 {
+                    // Trừ số lượng sản phẩm
+                    var recipeItems = MilkTeaContext.Ins.Recipes.Where(r => r.ProductId == product.ProductId).ToList();
+
+                    foreach (var recipe in recipeItems)
+                    {
+                        var material = MilkTeaContext.Ins.RawMaterials.FirstOrDefault(m => m.MaterialId == recipe.MaterialId);
+                        if (material != null)
+                        {
+                            decimal materialCost = (decimal)(recipe.QuantityRequired * cartItem.Quantity) * material.CostPerUnit;
+                            giaGoc += materialCost; // Cộng giá nguyên liệu vào OriginalTotal
+
+                            if (material.Quantity >= recipe.QuantityRequired * cartItem.Quantity)
+                            {
+                                material.Quantity -= recipe.QuantityRequired * cartItem.Quantity;
+                            }
+                            else
+                            {
+                                throw new Exception($"Nguyên liệu {material.MaterialName} không đủ để sản xuất {cartItem.Product.ProductName}");
+                            }
+                            MilkTeaContext.Ins.RawMaterials.Update(material);
+                            MilkTeaContext.Ins.Products.Update(product);
+                        }
+                    }
+                    product.Quantity -= cartItem.Quantity;
                     order.OrdersDetails.Add(new OrdersDetail
                     {
                         ProductId = cartItem.Product.ProductId,
                         Quantity = cartItem.Quantity,
-                        Price = cartItem.Product.Price*cartItem.Quantity,
+                        Price = cartItem.Product.Price * cartItem.Quantity,
                     });
                 }
+
+                else
+                {
+                    throw new Exception($"Sản phẩm {cartItem.Product.ProductId} không đủ số lượng trong kho.");
+                }
+            }
+            order.OriginalTotal = giaGoc;
             MilkTeaContext.Ins.Customers.Update(customer);
             MilkTeaContext.Ins.Orders.Add(order);
-                MilkTeaContext.Ins.SaveChanges();
-                listCart.Clear();
+            MilkTeaContext.Ins.SaveChanges();
+            listCart.Clear();
             lvCart.Items.Refresh();
+            LoadProduct();
             txtTotalPrice.Text = string.Empty;
             txtPhone.Text = string.Empty;
             txtCustomerInfo.Text = string.Empty;

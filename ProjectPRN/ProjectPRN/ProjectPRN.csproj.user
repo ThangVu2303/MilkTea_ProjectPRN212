@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AdminBusinessWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AdminEmployee.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +25,9 @@
     <Compile Update="AdminStaticPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CustomerBusinessWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CustomerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -31,15 +37,24 @@
     <Compile Update="OrderViewWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ProductBusinessWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="StaffWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AdminBusinessWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AdminMainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="AdminStaticPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerBusinessWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="CustomerWindow.xaml">
@@ -52,6 +67,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="OrderViewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProductBusinessWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="StaffWindow.xaml">

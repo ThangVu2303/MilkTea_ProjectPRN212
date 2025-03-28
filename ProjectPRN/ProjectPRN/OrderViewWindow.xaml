@@ -11,10 +11,10 @@
             <RowDefinition Height="70"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
-        
 
-        <DockPanel Grid.Row="0"  Background="#007ACC" Height="70" VerticalAlignment="Top" >
+
+
+        <DockPanel Grid.Row="0"  Background="#1A237E" Height="70" VerticalAlignment="Top" >
             <Image DockPanel.Dock="Left" Source="/LogoImage/logo.png" Width="46" Height="45" Margin="10" HorizontalAlignment="Left"/>
             <Label DockPanel.Dock="Left" Content="Milk Tea" Foreground="White" FontSize="28" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" />
 

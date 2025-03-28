@@ -1,0 +1,83 @@
+﻿<Window x:Class="ProjectPRN.AdminBusinessWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="AdminBusinessWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- Ảnh nền -->
+        <Image Source="/LogoImage/—Pngtree—milk tea pearl milk_1481123.jpg" Stretch="Fill" Opacity="0.3"/>
+
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70px"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <DockPanel Grid.Row="0"  Background="#1A237E" Height="70" VerticalAlignment="Top" >
+                <Image DockPanel.Dock="Left" Source="/LogoImage/logo.png" Width="46" Height="45" Margin="10" HorizontalAlignment="Left"/>
+                <Label DockPanel.Dock="Left" Content="Milk Tea" Foreground="White" FontSize="28" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" />
+
+
+                <Image DockPanel.Dock="Right" Source="/LogoImage/close.png" Width="30" Height="30" Margin="10" Cursor="Hand" HorizontalAlignment="Right" VerticalAlignment="Center" MouseLeftButtonDown="Image_MouseLeftButtonDown" />
+              <Menu DockPanel.Dock="Right" FontSize="16" FontWeight="Bold" Background="Transparent" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <MenuItem Header="Orders" Click="MenuItemOrders_Click"/>
+                    <MenuItem Header="Customers" Click="MenuItemCustomers_Click"/>
+                    <MenuItem Header="Product" Click="MenuItemProduct_Click"/>
+                </Menu>
+            </DockPanel>
+            <!-- Bộ lọc tìm kiếm -->
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="20" >
+                <TextBlock Text="Month:" VerticalAlignment="Center" Margin="0 0 5 0" Foreground="Black"/>
+                <ComboBox x:Name="cbMonth" Width="70" />
+                <TextBlock Text="Year:" VerticalAlignment="Center" Margin="10 0 5 0" Foreground="Black"/>
+                <ComboBox x:Name="cbYear" Width="80" />
+                <Button Content="Search" Width="80" Margin="10 0 0 0" Click="ButtonSearch_Click"/>
+            </StackPanel>
+
+            <!-- Grid chứa 3 ô thống kê -->
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Ô 1: Tổng vốn đã bỏ ra -->
+                <Border Background="LightBlue" CornerRadius="10" Margin="5" Padding="10" Width="160" Height="100">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Total Order" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="txtTotalOrder" Text="0 VND" FontSize="16" FontWeight="Bold" Foreground="DarkBlue"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Ô 2: Tổng tiền đơn hàng -->
+                <Border Background="LightGreen" CornerRadius="10" Grid.Column="1" Margin="5" Padding="5" Width="160" Height="100">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Total Oirginal Amount" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="txtTotalOriginalAmount" Text="0 VND" FontSize="16" FontWeight="Bold" Foreground="DarkGreen"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Ô 3: Lợi nhuận -->
+                <Border Background="LightCoral" CornerRadius="10" Grid.Column="2" Margin="5" Padding="10" Width="160" Height="100">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Total Amount" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="txtTotalAmount" Text="0 VND" FontSize="16" FontWeight="Bold" Foreground="DarkRed"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Background="LightSalmon" CornerRadius="10" Grid.Column="3" Margin="5" Padding="10" Width="160" Height="100">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Profit" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="txtProfit" Text="0 %" FontSize="16" FontWeight="Bold" Foreground="DarkRed"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

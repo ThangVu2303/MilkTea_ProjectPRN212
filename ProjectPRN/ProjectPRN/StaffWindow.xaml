@@ -14,7 +14,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <DockPanel Grid.Row="0"  Background="#007ACC" Height="70" VerticalAlignment="Top" >
+        <DockPanel Grid.Row="0"  Background="#1A237E" Height="70" VerticalAlignment="Top" >
             <Image DockPanel.Dock="Left" Source="/LogoImage/logo.png" Width="46" Height="45" Margin="10" HorizontalAlignment="Left"/>
             <Label DockPanel.Dock="Left" Content="Milk Tea" Foreground="White" FontSize="28" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" />
             
@@ -102,7 +102,7 @@
 
                         <TextBlock Text="Total Amount:" FontSize="16" FontWeight="Bold"/>
                         <TextBlock x:Name="txtTotalPrice" FontSize="18" FontWeight="Bold" Foreground="Red"/>
-                        <Button Content="Thanh toán" Background="Green" Foreground="White" FontSize="18" Padding="10" Click="ButtonOrder_Click" />
+                        <Button Content="Pay" Background="#1A237E" Foreground="White" FontSize="18" Padding="10" Click="ButtonOrder_Click" />
                     </StackPanel>
 
                     <StackPanel Grid.Row="0" Grid.Column="3" Orientation="Horizontal" Margin="20,20,20,20">
@@ -116,9 +116,9 @@
                     <StackPanel Grid.Row="1" Grid.Column="3" Margin="20,20,20,20">
                         <TextBlock Text="Customer Name:" FontSize="16" FontWeight="Bold"/>
                         <TextBlock  x:Name="txtCustomerInfo" 
-                    FontSize="18" FontWeight="Bold" Foreground="Green"/>
+                    FontSize="18" FontWeight="Bold" Foreground="#1A237E"/>
                         <TextBlock Text="Customer Points:" FontSize="16" FontWeight="Bold"/>
-                        <TextBlock x:Name="txtCustomerPoints" FontSize="18" FontWeight="Bold" Foreground="Green"/>
+                        <TextBlock x:Name="txtCustomerPoints" FontSize="18" FontWeight="Bold" Foreground="#1A237E"/>
 
                         <CheckBox x:Name="chkUsePoints" Content="Use points for discount" FontSize="14" 
               VerticalAlignment="Center" Checked="chkUsePoints_Checked" Unchecked="chkUsePoints_Checked"/>

@@ -55,6 +55,14 @@ namespace ProjectPRN
                     customerWindow.Show();
                     this.Close();
                 }
+                if (acc.RoleId == 4)
+                {
+                    MessageBox.Show($"Chào mừng admin {acc.FullName}! ",
+                                   "Đăng nhập thành công", MessageBoxButton.OK, MessageBoxImage.Information);
+                    AdminBusinessWindow adminBusiness = new AdminBusinessWindow();
+                    adminBusiness.Show();
+                    this.Close();
+                }
             }
             else
             {

@@ -25,16 +25,13 @@
                             <Label Content="Milk Tea POS" Foreground="White" FontSize="20" 
                                    Margin="10,0,0,0"/>
                         </StackPanel>
-
                         <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="0,0,20,0">
-                            <Label x:Name="txtTime" Content="HH:MM:SS DD-MM-YYYY" 
-                                   Foreground="#B0BEC5" VerticalAlignment="Center" Margin="0,0,20,0"/>
-                            <Label x:Name="txtUsername" Foreground="White" FontSize="14"
-                                   VerticalAlignment="Center" Margin="0,0,20,0"/>
+                            <Label x:Name="txtUsername" Foreground="White" FontSize="14" 
+                                 VerticalAlignment="Center" Margin="0,0,20,0"/>
                             <Border Background="Transparent" Width="24" Height="24" Cursor="Hand"
-                                    MouseLeftButtonDown="Image_MouseLeftButtonDown">
+                                    MouseLeftButtonDown="Image_MouseLeftButtonDown" >
                                 <Image Source="/LogoImage/close.png" Width="16" Height="16" 
-                                       Opacity="0.8">
+                                      Opacity="0.8">
                                     <Image.Style>
                                         <Style TargetType="Image">
                                             <Setter Property="Opacity" Value="0.8"/>
@@ -48,6 +45,12 @@
                                 </Image>
                             </Border>
                         </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="0,0,20,0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <Label x:Name="txtTime" Content="HH:MM:SS DD-MM-YYYY" 
+                                   Foreground="#B0BEC5" VerticalAlignment="Center" Margin="0,0,20,0"/>
+                        </StackPanel>
+                        
                     </DockPanel>
                 </Border>
 

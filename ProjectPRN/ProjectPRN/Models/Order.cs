@@ -13,6 +13,8 @@ public partial class Order
 
     public int? Point { get; set; }
 
+    public decimal OriginalTotal { get; set; }
+
     public decimal Total { get; set; }
 
     public DateOnly DateCreate { get; set; }
