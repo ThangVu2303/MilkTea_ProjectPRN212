@@ -55,7 +55,6 @@ namespace ProjectPRN
                 {
                     MessageBox.Show("Gửi email thất bại. Vui lòng thử lại!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
-
                 this.Close();
             }
             else
@@ -75,14 +74,14 @@ namespace ProjectPRN
             {
                 string smtpServer = "smtp.gmail.com";
                 int port = 587;
-                string senderEmail = "duongdinhcuong2004@gmail.com";
-                string senderPassword = "vtcw ichq hnne zrju"; // Hoặc App Password
+                string senderEmail = "thangvd189003@gmail.com";
+                string senderPassword = "xhhv txku vhba hqon";
 
                 MailMessage mail = new MailMessage();
                 mail.From = new MailAddress(senderEmail);
                 mail.To.Add(recipientEmail);
                 mail.Subject = "Reset Password - MilkTea POS";
-                mail.Body = $"Xin chào,\n\nMật khẩu mới của bạn là: {newPassword}\nVui lòng đăng nhập và đổi lại mật khẩu.\n\nTrân trọng,\nMilkTea POS Team";
+                mail.Body = $"Xin chào,\n\nMật khẩu mới của bạn là: {newPassword}\nVui lòng đăng nhập và đổi lại mật khẩu.\n\nTrân trọng,\nMilkTea Team";
                 mail.IsBodyHtml = false;
 
                 SmtpClient smtpClient = new SmtpClient(smtpServer, port);
